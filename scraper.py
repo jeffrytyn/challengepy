@@ -48,7 +48,7 @@ def get_clubs(soup):
     This function should return a list of soups with each soup corresponding to the html
     for a single club.
     """
-    return [] # TODO: Implement this function
+    return get_elements_with_class(soup, "div", "box") # TODO: Implement this function
 
 def get_club_name(club):
     """
@@ -65,11 +65,17 @@ def get_club_description(club):
     """
     Extract club description from a soup containing a single club.
     """
-    return '' # TODO: Implement this function
+    descr = club.findAll('em')
+    if len(descr) < 1:
+        return ''
+    return descr[0].text # TODO: Implement this function
 
 def get_club_tags(club):
     """
     Get the tag labels for all tags associated with a single club.
     """
-    return [] # TODO: Implement this function
+    tag = get_elements_with_class(club, 'span', 'tag is-info is-rounded')
+    if len(tag) < 1:
+        return ''
+    return tag[0].text # TODO: Implement this function
 

@@ -2,6 +2,13 @@ from flask import Flask, request
 from scraper import * # Web Scraping utility functions for Online Clubs with Penn.
 app = Flask(__name__)
 
+class Club:
+    def __init__(self, name, tags, descr):
+        self.name = name
+        self.tags = tags
+        self.descr = descr
+
+
 @app.route('/')
 def main():
     return "Welcome to Penn Club Review!"
