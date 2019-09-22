@@ -17,7 +17,6 @@ class User:
 
 @app.route('/')
 def main():
-    soupify(get_clubs_html())
     return "Welcome to Penn Club Review!"
 
 @app.route('/api')
