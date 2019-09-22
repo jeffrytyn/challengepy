@@ -85,11 +85,11 @@ for club_html in get_clubs(soupify(get_clubs_html())):
     tag = get_club_tags(club_html)
     descr = get_club_description(club_html)
     club_data = {
-        'name': name,
-        'tag': tag,
+        'name': name ,
+        'tag': tag ,
         'descr': descr
     }
     club_contents.append(club_data)
 
 with open('club_data.json','w') as club_data:
-    json.dump(club_contents, club_data)
+    json.dump(club_contents, club_data, indent=1)
