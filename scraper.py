@@ -48,7 +48,7 @@ def get_clubs(soup):
     This function should return a list of soups with each soup corresponding to the html
     for a single club.
     """
-    return get_elements_with_class(soup, "div", "box") # TODO: Implement this function
+    return get_elements_with_class(soup, "div", "box") 
 
 def get_club_name(club):
     """
@@ -68,7 +68,7 @@ def get_club_description(club):
     descr = club.findAll('em')
     if len(descr) < 1:
         return ''
-    return descr[0].text # TODO: Implement this function
+    return descr[0].text 
 
 def get_club_tags(club):
     """
@@ -77,8 +77,12 @@ def get_club_tags(club):
     tag = get_elements_with_class(club, 'span', 'tag is-info is-rounded')
     if len(tag) < 1:
         return ''
-    return tag[0].text # TODO: Implement this function
+    return tag[0].text 
 
+
+"""
+Format scraped data into a json file. This json file will contain data for all clubs.
+"""
 club_contents = []
 for club_html in get_clubs(soupify(get_clubs_html())):
     name = get_club_name(club_html)
@@ -87,7 +91,8 @@ for club_html in get_clubs(soupify(get_clubs_html())):
     club_data = {
         'name': name ,
         'tag': tag ,
-        'descr': descr
+        'descr': descr ,
+        'favorites': 0
     }
     club_contents.append(club_data)
 

@@ -8,6 +8,12 @@ class Club:
         self.tags = tags
         self.descr = descr
 
+class User:
+    def _init_(self, name, year, school, favorite):
+        self.name = name
+        self.year = year
+        self.school = school
+        self.favorite = favorite
 
 @app.route('/')
 def main():
