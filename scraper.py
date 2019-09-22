@@ -74,30 +74,30 @@ def get_club_tags(club):
     """
     Get the tag labels for all tags associated with a single club.
     """
-    tag = get_elements_with_class(club, 'span', 'tag is-info is-rounded')
-    if len(tag) < 1:
-        return ''
-    return tag[0].text 
+    tags = get_elements_with_class(club, 'span', 'tag is-info is-rounded')
+    if len(tags) < 1:
+        return []
+    container = []
+    for tag in tags:
+        container.append(tag.text)
+    return container
 
-"""
-Format scraped data into a json file. This json file will contain data for all clubs.
-"""
-club_contents = {}
+all_clubs = {}
 for club_html in get_clubs(soupify(get_clubs_html())):
-    name = get_club_name(club_html)
-    tag = get_club_tags(club_html)
-    descr = get_club_description(club_html) 
-    club_data = {
-        'name': name ,
-        'tag': tag ,
-        'descr': descr ,
-        'favorites': 0
-    }
-    club_contents[name] = club_data
-
+        name = get_club_name(club_html)
+        tag = get_club_tags(club_html)
+        descr = get_club_description(club_html) 
+        club_info = {
+            'name': name,
+            'tags': tag,
+            'descr': descr,
+            'likes': 0
+            }
+        all_clubs[name] = club_info
+        
 with open('club_data.json','w') as club_json:
-    json.dump(club_contents, club_json, indent=1)
-
+    json.dump(all_clubs, club_json, indent=1)
+    club_json.close()
 
 
 

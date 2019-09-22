@@ -1,15 +1,15 @@
 import json
 
 class User:
-    def __init__(self, name, year, school, favorites):
-        self.name = name
+    def __init__(self, username, year, school, favorites):
+        self.username = username
         self.year = year
         self.school = school
         self.favorites = favorites
 
     def user_json(self):
         user_json = {
-            'username': self.name ,
+            'username': self.username ,
             'year': self.year ,
             'school': self.school ,
             'favorites': self.favorites
@@ -17,10 +17,9 @@ class User:
         return user_json
 
 user_data={}
-
 Jen = User('jen',2023,'SEAS',["PennLabs",'CSS'])
 user_data['jen'] = Jen.user_json()
 
 with open('club_users.json','w') as userfile:
     json.dump(user_data, userfile, indent = 1)
-
+    userfile.close()
