@@ -11,11 +11,16 @@ class Club:
 
 @app.route('/')
 def main():
+    soupify(get_clubs_html())
     return "Welcome to Penn Club Review!"
 
 @app.route('/api')
 def api():
     return "Welcome to the Penn Club Review API!."
+
+
+
+
 
 if __name__ == '__main__':
     app.run()

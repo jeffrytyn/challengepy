@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-
+import json
 
 def get_html(url):
     """
@@ -79,3 +79,17 @@ def get_club_tags(club):
         return ''
     return tag[0].text # TODO: Implement this function
 
+club_contents = []
+for club_html in get_clubs(soupify(get_clubs_html())):
+    name = get_club_name(club_html)
+    tag = get_club_tags(club_html)
+    descr = get_club_description(club_html)
+    club_data = {
+        'name': name,
+        'tag': tag,
+        'descr': descr
+    }
+    club_contents.append(club_data)
+
+with open('club_data.json','w') as club_data:
+    json.dump(club_contents, club_data)
