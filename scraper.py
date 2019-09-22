@@ -79,22 +79,26 @@ def get_club_tags(club):
         return ''
     return tag[0].text 
 
-
 """
 Format scraped data into a json file. This json file will contain data for all clubs.
 """
-club_contents = []
+club_contents = {}
 for club_html in get_clubs(soupify(get_clubs_html())):
     name = get_club_name(club_html)
     tag = get_club_tags(club_html)
-    descr = get_club_description(club_html)
+    descr = get_club_description(club_html) 
     club_data = {
         'name': name ,
         'tag': tag ,
         'descr': descr ,
         'favorites': 0
     }
-    club_contents.append(club_data)
+    club_contents[name] = club_data
 
-with open('club_data.json','w') as club_data:
-    json.dump(club_contents, club_data, indent=1)
+with open('club_data.json','w') as club_json:
+    json.dump(club_contents, club_json, indent=1)
+
+
+
+
+
