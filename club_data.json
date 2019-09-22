@@ -1,1032 +1,1238 @@
-[
- {
+{
+ "Arun Fan Club": {
   "name": "Arun Fan Club",
   "tag": "Fans",
-  "descr": "If you are a lover of Arun Kirubarajan and his sick ML and coffee skills, come out to our info session this friday!"
+  "descr": "If you are a lover of Arun Kirubarajan and his sick ML and coffee skills, come out to our info session this friday!",
+  "favorites": 0
  },
- {
+ "Penn Labs": {
   "name": "Penn Labs",
   "tag": "Technology",
-  "descr": "Coolest group of student devs to ever exist"
+  "descr": "Coolest group of student devs to ever exist",
+  "favorites": 0
  },
- {
+ "Penn Program for Potential Procrastinators": {
   "name": "Penn Program for Potential Procrastinators",
   "tag": "Procrastination",
-  "descr": "Ever considered yourself a possible procrastinator, but never actually were able to get the motivation to determine for sure? Then join PPPP, Penn's premier potential procrastinating society! We are seeking unmotivated individuals who, in theory, are interested in joining our group, but can't quite get themselves to start working on our application. Start applying today so that you can procrastinate on the application and ultimately miss the deadline!"
+  "descr": "Ever considered yourself a possible procrastinator, but never actually were able to get the motivation to determine for sure? Then join PPPP, Penn's premier potential procrastinating society! We are seeking unmotivated individuals who, in theory, are interested in joining our group, but can't quite get themselves to start working on our application. Start applying today so that you can procrastinate on the application and ultimately miss the deadline!",
+  "favorites": 0
  },
- {
+ "Anti - Arun Fan Club": {
   "name": "Anti - Arun Fan Club",
   "tag": "Technology",
-  "descr": "Established immediately after the founding of the Arun Fan Club, the Anti - Arun Fan Club is a contrarian organization that fights against all things Arun. Come to our meetings to hate on coffee, ML, and anything else with which Arun associates himself."
+  "descr": "Established immediately after the founding of the Arun Fan Club, the Anti - Arun Fan Club is a contrarian organization that fights against all things Arun. Come to our meetings to hate on coffee, ML, and anything else with which Arun associates himself.",
+  "favorites": 0
  },
- {
+ "Data Science Club": {
   "name": "Data Science Club",
   "tag": "Technology",
-  "descr": "Come learn about data science, how to make science out of data, and how to make data out of science!"
+  "descr": "Come learn about data science, how to make science out of data, and how to make data out of science!",
+  "favorites": 0
  },
- {
+ "Lorem Ipsum Club": {
   "name": "Lorem Ipsum Club",
   "tag": "Performing Arts",
-  "descr": "If you enjoy lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan urna et erat vulputate, in faucibus lacus molestie. Phasellus vel pellentesque justo. Phasellus sit amet augue at leo molestie viverra. Praesent volutpat imperdiet purus, ac feugiat magna mollis id. Proin eu bibendum elit."
+  "descr": "If you enjoy lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent accumsan urna et erat vulputate, in faucibus lacus molestie. Phasellus vel pellentesque justo. Phasellus sit amet augue at leo molestie viverra. Praesent volutpat imperdiet purus, ac feugiat magna mollis id. Proin eu bibendum elit.",
+  "favorites": 0
  },
- {
+ "Nursing Robotics Quantum Computing Actionable Analytics Internet of Things Club": {
   "name": "Nursing Robotics Quantum Computing Actionable Analytics Internet of Things Club",
   "tag": "Social",
-  "descr": "We do things related with Robotics, Quantum Computing, Actionable Analytics, and Internet of Things!"
+  "descr": "We do things related with Robotics, Quantum Computing, Actionable Analytics, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Engineering Artificial Intelligence Blockchain Quantum Computing Internet of Things Club": {
   "name": "Engineering Artificial Intelligence Blockchain Quantum Computing Internet of Things Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Artificial Intelligence, Blockchain, Quantum Computing, and Internet of Things!"
+  "descr": "We do things related with Artificial Intelligence, Blockchain, Quantum Computing, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "College Actionable Analytics Artificial Intelligence Augmented Reality Big Data Club": {
   "name": "College Actionable Analytics Artificial Intelligence Augmented Reality Big Data Club",
   "tag": "Meme",
-  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Augmented Reality, and Big Data!"
+  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Augmented Reality, and Big Data!",
+  "favorites": 0
  },
- {
+ "Nursing Data Mining Machine Learning Microservice Blockchain Club": {
   "name": "Nursing Data Mining Machine Learning Microservice Blockchain Club",
   "tag": "Potato",
-  "descr": "We do things related with Data Mining, Machine Learning, Microservice, and Blockchain!"
+  "descr": "We do things related with Data Mining, Machine Learning, Microservice, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Engineering Blockchain Big Data Machine Learning Robotics Club": {
   "name": "Engineering Blockchain Big Data Machine Learning Robotics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Blockchain, Big Data, Machine Learning, and Robotics!"
+  "descr": "We do things related with Blockchain, Big Data, Machine Learning, and Robotics!",
+  "favorites": 0
  },
- {
+ "College Robotics Data Mining Machine Learning Virtual Reality Club": {
   "name": "College Robotics Data Mining Machine Learning Virtual Reality Club",
   "tag": "Meme",
-  "descr": "We do things related with Robotics, Data Mining, Machine Learning, and Virtual Reality!"
+  "descr": "We do things related with Robotics, Data Mining, Machine Learning, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Nursing Virtual Reality Machine Learning Internet of Things Blockchain Club": {
   "name": "Nursing Virtual Reality Machine Learning Internet of Things Blockchain Club",
   "tag": "Meme",
-  "descr": "We do things related with Virtual Reality, Machine Learning, Internet of Things, and Blockchain!"
+  "descr": "We do things related with Virtual Reality, Machine Learning, Internet of Things, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Nursing Artificial Intelligence Internet of Things Machine Learning Augmented Reality Club": {
   "name": "Nursing Artificial Intelligence Internet of Things Machine Learning Augmented Reality Club",
   "tag": "Meme",
-  "descr": "We do things related with Artificial Intelligence, Internet of Things, Machine Learning, and Augmented Reality!"
+  "descr": "We do things related with Artificial Intelligence, Internet of Things, Machine Learning, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "College Machine Learning Artificial Intelligence Internet of Things Virtual Reality Club": {
   "name": "College Machine Learning Artificial Intelligence Internet of Things Virtual Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Machine Learning, Artificial Intelligence, Internet of Things, and Virtual Reality!"
+  "descr": "We do things related with Machine Learning, Artificial Intelligence, Internet of Things, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Wharton Big Data Machine Learning Artificial Intelligence Augmented Reality Club": {
   "name": "Wharton Big Data Machine Learning Artificial Intelligence Augmented Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Big Data, Machine Learning, Artificial Intelligence, and Augmented Reality!"
+  "descr": "We do things related with Big Data, Machine Learning, Artificial Intelligence, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Nursing Internet of Things Robotics Data Mining Artificial Intelligence Club": {
   "name": "Nursing Internet of Things Robotics Data Mining Artificial Intelligence Club",
   "tag": "Potato",
-  "descr": "We do things related with Internet of Things, Robotics, Data Mining, and Artificial Intelligence!"
+  "descr": "We do things related with Internet of Things, Robotics, Data Mining, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Engineering Augmented Reality Blockchain Virtual Reality Microservice Club": {
   "name": "Engineering Augmented Reality Blockchain Virtual Reality Microservice Club",
   "tag": "Meme",
-  "descr": "We do things related with Augmented Reality, Blockchain, Virtual Reality, and Microservice!"
+  "descr": "We do things related with Augmented Reality, Blockchain, Virtual Reality, and Microservice!",
+  "favorites": 0
  },
- {
+ "College Artificial Intelligence Robotics Quantum Computing Big Data Club": {
   "name": "College Artificial Intelligence Robotics Quantum Computing Big Data Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Artificial Intelligence, Robotics, Quantum Computing, and Big Data!"
+  "descr": "We do things related with Artificial Intelligence, Robotics, Quantum Computing, and Big Data!",
+  "favorites": 0
  },
- {
+ "Engineering Virtual Reality Internet of Things Machine Learning Augmented Reality Club": {
   "name": "Engineering Virtual Reality Internet of Things Machine Learning Augmented Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Virtual Reality, Internet of Things, Machine Learning, and Augmented Reality!"
+  "descr": "We do things related with Virtual Reality, Internet of Things, Machine Learning, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Virtual Reality Microservice Big Data Blockchain Club": {
   "name": "Engineering Virtual Reality Microservice Big Data Blockchain Club",
   "tag": "Potato",
-  "descr": "We do things related with Virtual Reality, Microservice, Big Data, and Blockchain!"
+  "descr": "We do things related with Virtual Reality, Microservice, Big Data, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Wharton Machine Learning Robotics Blockchain Data Mining Club": {
   "name": "Wharton Machine Learning Robotics Blockchain Data Mining Club",
   "tag": "Potato",
-  "descr": "We do things related with Machine Learning, Robotics, Blockchain, and Data Mining!"
+  "descr": "We do things related with Machine Learning, Robotics, Blockchain, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Engineering Blockchain Quantum Computing Internet of Things Augmented Reality Club": {
   "name": "Engineering Blockchain Quantum Computing Internet of Things Augmented Reality Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Blockchain, Quantum Computing, Internet of Things, and Augmented Reality!"
+  "descr": "We do things related with Blockchain, Quantum Computing, Internet of Things, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "College Microservice Data Mining Actionable Analytics Quantum Computing Club": {
   "name": "College Microservice Data Mining Actionable Analytics Quantum Computing Club",
   "tag": "Meme",
-  "descr": "We do things related with Microservice, Data Mining, Actionable Analytics, and Quantum Computing!"
+  "descr": "We do things related with Microservice, Data Mining, Actionable Analytics, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Engineering Blockchain Virtual Reality Augmented Reality Quantum Computing Club": {
   "name": "Engineering Blockchain Virtual Reality Augmented Reality Quantum Computing Club",
   "tag": "Meme",
-  "descr": "We do things related with Blockchain, Virtual Reality, Augmented Reality, and Quantum Computing!"
+  "descr": "We do things related with Blockchain, Virtual Reality, Augmented Reality, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Engineering Big Data Quantum Computing Augmented Reality Internet of Things Club": {
   "name": "Engineering Big Data Quantum Computing Augmented Reality Internet of Things Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Big Data, Quantum Computing, Augmented Reality, and Internet of Things!"
+  "descr": "We do things related with Big Data, Quantum Computing, Augmented Reality, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "College Blockchain Robotics Augmented Reality Virtual Reality Club": {
   "name": "College Blockchain Robotics Augmented Reality Virtual Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Blockchain, Robotics, Augmented Reality, and Virtual Reality!"
+  "descr": "We do things related with Blockchain, Robotics, Augmented Reality, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "College Robotics Big Data Augmented Reality Actionable Analytics Club": {
   "name": "College Robotics Big Data Augmented Reality Actionable Analytics Club",
   "tag": "Potato",
-  "descr": "We do things related with Robotics, Big Data, Augmented Reality, and Actionable Analytics!"
+  "descr": "We do things related with Robotics, Big Data, Augmented Reality, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Nursing Artificial Intelligence Internet of Things Augmented Reality Quantum Computing Club": {
   "name": "Nursing Artificial Intelligence Internet of Things Augmented Reality Quantum Computing Club",
   "tag": "Social",
-  "descr": "We do things related with Artificial Intelligence, Internet of Things, Augmented Reality, and Quantum Computing!"
+  "descr": "We do things related with Artificial Intelligence, Internet of Things, Augmented Reality, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Wharton Blockchain Machine Learning Internet of Things Robotics Club": {
   "name": "Wharton Blockchain Machine Learning Internet of Things Robotics Club",
   "tag": "Meme",
-  "descr": "We do things related with Blockchain, Machine Learning, Internet of Things, and Robotics!"
+  "descr": "We do things related with Blockchain, Machine Learning, Internet of Things, and Robotics!",
+  "favorites": 0
  },
- {
+ "College Data Mining Machine Learning Microservice Actionable Analytics Club": {
   "name": "College Data Mining Machine Learning Microservice Actionable Analytics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Data Mining, Machine Learning, Microservice, and Actionable Analytics!"
+  "descr": "We do things related with Data Mining, Machine Learning, Microservice, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Nursing Artificial Intelligence Augmented Reality Blockchain Quantum Computing Club": {
   "name": "Nursing Artificial Intelligence Augmented Reality Blockchain Quantum Computing Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Artificial Intelligence, Augmented Reality, Blockchain, and Quantum Computing!"
+  "descr": "We do things related with Artificial Intelligence, Augmented Reality, Blockchain, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Penn Machine Learning Augmented Reality Artificial Intelligence Blockchain Club": {
   "name": "Penn Machine Learning Augmented Reality Artificial Intelligence Blockchain Club",
   "tag": "Potato",
-  "descr": "We do things related with Machine Learning, Augmented Reality, Artificial Intelligence, and Blockchain!"
+  "descr": "We do things related with Machine Learning, Augmented Reality, Artificial Intelligence, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Wharton Blockchain Artificial Intelligence Quantum Computing Virtual Reality Club": {
   "name": "Wharton Blockchain Artificial Intelligence Quantum Computing Virtual Reality Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Blockchain, Artificial Intelligence, Quantum Computing, and Virtual Reality!"
+  "descr": "We do things related with Blockchain, Artificial Intelligence, Quantum Computing, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Blockchain Augmented Reality Robotics Internet of Things Club": {
   "name": "Engineering Blockchain Augmented Reality Robotics Internet of Things Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Blockchain, Augmented Reality, Robotics, and Internet of Things!"
+  "descr": "We do things related with Blockchain, Augmented Reality, Robotics, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Engineering Machine Learning Robotics Big Data Internet of Things Club": {
   "name": "Engineering Machine Learning Robotics Big Data Internet of Things Club",
   "tag": "Meme",
-  "descr": "We do things related with Machine Learning, Robotics, Big Data, and Internet of Things!"
+  "descr": "We do things related with Machine Learning, Robotics, Big Data, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "College Robotics Actionable Analytics Data Mining Augmented Reality Club": {
   "name": "College Robotics Actionable Analytics Data Mining Augmented Reality Club",
   "tag": "Meme",
-  "descr": "We do things related with Robotics, Actionable Analytics, Data Mining, and Augmented Reality!"
+  "descr": "We do things related with Robotics, Actionable Analytics, Data Mining, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Wharton Data Mining Blockchain Quantum Computing Actionable Analytics Club": {
   "name": "Wharton Data Mining Blockchain Quantum Computing Actionable Analytics Club",
   "tag": "Meme",
-  "descr": "We do things related with Data Mining, Blockchain, Quantum Computing, and Actionable Analytics!"
+  "descr": "We do things related with Data Mining, Blockchain, Quantum Computing, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Engineering Robotics Big Data Microservice Data Mining Club": {
   "name": "Engineering Robotics Big Data Microservice Data Mining Club",
   "tag": "Meme",
-  "descr": "We do things related with Robotics, Big Data, Microservice, and Data Mining!"
+  "descr": "We do things related with Robotics, Big Data, Microservice, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Wharton Microservice Robotics Data Mining Actionable Analytics Club": {
   "name": "Wharton Microservice Robotics Data Mining Actionable Analytics Club",
   "tag": "Social",
-  "descr": "We do things related with Microservice, Robotics, Data Mining, and Actionable Analytics!"
+  "descr": "We do things related with Microservice, Robotics, Data Mining, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Wharton Microservice Quantum Computing Big Data Actionable Analytics Club": {
   "name": "Wharton Microservice Quantum Computing Big Data Actionable Analytics Club",
   "tag": "Social",
-  "descr": "We do things related with Microservice, Quantum Computing, Big Data, and Actionable Analytics!"
+  "descr": "We do things related with Microservice, Quantum Computing, Big Data, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "College Quantum Computing Blockchain Machine Learning Microservice Club": {
   "name": "College Quantum Computing Blockchain Machine Learning Microservice Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Quantum Computing, Blockchain, Machine Learning, and Microservice!"
+  "descr": "We do things related with Quantum Computing, Blockchain, Machine Learning, and Microservice!",
+  "favorites": 0
  },
- {
+ "Nursing Big Data Machine Learning Internet of Things Microservice Club": {
   "name": "Nursing Big Data Machine Learning Internet of Things Microservice Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Big Data, Machine Learning, Internet of Things, and Microservice!"
+  "descr": "We do things related with Big Data, Machine Learning, Internet of Things, and Microservice!",
+  "favorites": 0
  },
- {
+ "Nursing Internet of Things Microservice Big Data Augmented Reality Club": {
   "name": "Nursing Internet of Things Microservice Big Data Augmented Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Internet of Things, Microservice, Big Data, and Augmented Reality!"
+  "descr": "We do things related with Internet of Things, Microservice, Big Data, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Penn Internet of Things Data Mining Artificial Intelligence Blockchain Club": {
   "name": "Penn Internet of Things Data Mining Artificial Intelligence Blockchain Club",
   "tag": "Social",
-  "descr": "We do things related with Internet of Things, Data Mining, Artificial Intelligence, and Blockchain!"
+  "descr": "We do things related with Internet of Things, Data Mining, Artificial Intelligence, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Engineering Big Data Data Mining Virtual Reality Microservice Club": {
   "name": "Engineering Big Data Data Mining Virtual Reality Microservice Club",
   "tag": "Social",
-  "descr": "We do things related with Big Data, Data Mining, Virtual Reality, and Microservice!"
+  "descr": "We do things related with Big Data, Data Mining, Virtual Reality, and Microservice!",
+  "favorites": 0
  },
- {
+ "Nursing Blockchain Actionable Analytics Internet of Things Machine Learning Club": {
   "name": "Nursing Blockchain Actionable Analytics Internet of Things Machine Learning Club",
   "tag": "Meme",
-  "descr": "We do things related with Blockchain, Actionable Analytics, Internet of Things, and Machine Learning!"
+  "descr": "We do things related with Blockchain, Actionable Analytics, Internet of Things, and Machine Learning!",
+  "favorites": 0
  },
- {
+ "Wharton Blockchain Microservice Robotics Quantum Computing Club": {
   "name": "Wharton Blockchain Microservice Robotics Quantum Computing Club",
   "tag": "Meme",
-  "descr": "We do things related with Blockchain, Microservice, Robotics, and Quantum Computing!"
+  "descr": "We do things related with Blockchain, Microservice, Robotics, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Wharton Blockchain Actionable Analytics Data Mining Internet of Things Club": {
   "name": "Wharton Blockchain Actionable Analytics Data Mining Internet of Things Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Blockchain, Actionable Analytics, Data Mining, and Internet of Things!"
+  "descr": "We do things related with Blockchain, Actionable Analytics, Data Mining, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Wharton Blockchain Quantum Computing Augmented Reality Microservice Club": {
   "name": "Wharton Blockchain Quantum Computing Augmented Reality Microservice Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Blockchain, Quantum Computing, Augmented Reality, and Microservice!"
+  "descr": "We do things related with Blockchain, Quantum Computing, Augmented Reality, and Microservice!",
+  "favorites": 0
  },
- {
+ "Wharton Internet of Things Microservice Data Mining Virtual Reality Club": {
   "name": "Wharton Internet of Things Microservice Data Mining Virtual Reality Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Internet of Things, Microservice, Data Mining, and Virtual Reality!"
+  "descr": "We do things related with Internet of Things, Microservice, Data Mining, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Nursing Robotics Artificial Intelligence Big Data Augmented Reality Club": {
   "name": "Nursing Robotics Artificial Intelligence Big Data Augmented Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Robotics, Artificial Intelligence, Big Data, and Augmented Reality!"
+  "descr": "We do things related with Robotics, Artificial Intelligence, Big Data, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Internet of Things Artificial Intelligence Machine Learning Quantum Computing Club": {
   "name": "Engineering Internet of Things Artificial Intelligence Machine Learning Quantum Computing Club",
   "tag": "Social",
-  "descr": "We do things related with Internet of Things, Artificial Intelligence, Machine Learning, and Quantum Computing!"
+  "descr": "We do things related with Internet of Things, Artificial Intelligence, Machine Learning, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "College Actionable Analytics Artificial Intelligence Robotics Quantum Computing Club": {
   "name": "College Actionable Analytics Artificial Intelligence Robotics Quantum Computing Club",
   "tag": "Meme",
-  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Robotics, and Quantum Computing!"
+  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Robotics, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "College Big Data Blockchain Virtual Reality Robotics Club": {
   "name": "College Big Data Blockchain Virtual Reality Robotics Club",
   "tag": "Potato",
-  "descr": "We do things related with Big Data, Blockchain, Virtual Reality, and Robotics!"
+  "descr": "We do things related with Big Data, Blockchain, Virtual Reality, and Robotics!",
+  "favorites": 0
  },
- {
+ "Engineering Blockchain Virtual Reality Augmented Reality Data Mining Club": {
   "name": "Engineering Blockchain Virtual Reality Augmented Reality Data Mining Club",
   "tag": "Meme",
-  "descr": "We do things related with Blockchain, Virtual Reality, Augmented Reality, and Data Mining!"
+  "descr": "We do things related with Blockchain, Virtual Reality, Augmented Reality, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Nursing Machine Learning Actionable Analytics Internet of Things Virtual Reality Club": {
   "name": "Nursing Machine Learning Actionable Analytics Internet of Things Virtual Reality Club",
   "tag": "Meme",
-  "descr": "We do things related with Machine Learning, Actionable Analytics, Internet of Things, and Virtual Reality!"
+  "descr": "We do things related with Machine Learning, Actionable Analytics, Internet of Things, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Penn Actionable Analytics Artificial Intelligence Data Mining Virtual Reality Club": {
   "name": "Penn Actionable Analytics Artificial Intelligence Data Mining Virtual Reality Club",
   "tag": "Meme",
-  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Data Mining, and Virtual Reality!"
+  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Data Mining, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "College Machine Learning Artificial Intelligence Blockchain Virtual Reality Club": {
   "name": "College Machine Learning Artificial Intelligence Blockchain Virtual Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Machine Learning, Artificial Intelligence, Blockchain, and Virtual Reality!"
+  "descr": "We do things related with Machine Learning, Artificial Intelligence, Blockchain, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Nursing Microservice Robotics Data Mining Artificial Intelligence Club": {
   "name": "Nursing Microservice Robotics Data Mining Artificial Intelligence Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Microservice, Robotics, Data Mining, and Artificial Intelligence!"
+  "descr": "We do things related with Microservice, Robotics, Data Mining, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Penn Virtual Reality Actionable Analytics Big Data Augmented Reality Club": {
   "name": "Penn Virtual Reality Actionable Analytics Big Data Augmented Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Virtual Reality, Actionable Analytics, Big Data, and Augmented Reality!"
+  "descr": "We do things related with Virtual Reality, Actionable Analytics, Big Data, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Internet of Things Robotics Machine Learning Big Data Club": {
   "name": "Engineering Internet of Things Robotics Machine Learning Big Data Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Internet of Things, Robotics, Machine Learning, and Big Data!"
+  "descr": "We do things related with Internet of Things, Robotics, Machine Learning, and Big Data!",
+  "favorites": 0
  },
- {
+ "Engineering Internet of Things Machine Learning Big Data Data Mining Club": {
   "name": "Engineering Internet of Things Machine Learning Big Data Data Mining Club",
   "tag": "Potato",
-  "descr": "We do things related with Internet of Things, Machine Learning, Big Data, and Data Mining!"
+  "descr": "We do things related with Internet of Things, Machine Learning, Big Data, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Nursing Virtual Reality Artificial Intelligence Actionable Analytics Blockchain Club": {
   "name": "Nursing Virtual Reality Artificial Intelligence Actionable Analytics Blockchain Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Virtual Reality, Artificial Intelligence, Actionable Analytics, and Blockchain!"
+  "descr": "We do things related with Virtual Reality, Artificial Intelligence, Actionable Analytics, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Wharton Artificial Intelligence Machine Learning Robotics Virtual Reality Club": {
   "name": "Wharton Artificial Intelligence Machine Learning Robotics Virtual Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Artificial Intelligence, Machine Learning, Robotics, and Virtual Reality!"
+  "descr": "We do things related with Artificial Intelligence, Machine Learning, Robotics, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Quantum Computing Machine Learning Actionable Analytics Data Mining Club": {
   "name": "Engineering Quantum Computing Machine Learning Actionable Analytics Data Mining Club",
   "tag": "Meme",
-  "descr": "We do things related with Quantum Computing, Machine Learning, Actionable Analytics, and Data Mining!"
+  "descr": "We do things related with Quantum Computing, Machine Learning, Actionable Analytics, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Wharton Artificial Intelligence Blockchain Microservice Virtual Reality Club": {
   "name": "Wharton Artificial Intelligence Blockchain Microservice Virtual Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Artificial Intelligence, Blockchain, Microservice, and Virtual Reality!"
+  "descr": "We do things related with Artificial Intelligence, Blockchain, Microservice, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Penn Artificial Intelligence Robotics Microservice Augmented Reality Club": {
   "name": "Penn Artificial Intelligence Robotics Microservice Augmented Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Artificial Intelligence, Robotics, Microservice, and Augmented Reality!"
+  "descr": "We do things related with Artificial Intelligence, Robotics, Microservice, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Penn Actionable Analytics Augmented Reality Internet of Things Blockchain Club": {
   "name": "Penn Actionable Analytics Augmented Reality Internet of Things Blockchain Club",
   "tag": "Meme",
-  "descr": "We do things related with Actionable Analytics, Augmented Reality, Internet of Things, and Blockchain!"
+  "descr": "We do things related with Actionable Analytics, Augmented Reality, Internet of Things, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Nursing Blockchain Quantum Computing Data Mining Microservice Club": {
   "name": "Nursing Blockchain Quantum Computing Data Mining Microservice Club",
   "tag": "Meme",
-  "descr": "We do things related with Blockchain, Quantum Computing, Data Mining, and Microservice!"
+  "descr": "We do things related with Blockchain, Quantum Computing, Data Mining, and Microservice!",
+  "favorites": 0
  },
- {
+ "College Data Mining Artificial Intelligence Actionable Analytics Augmented Reality Club": {
   "name": "College Data Mining Artificial Intelligence Actionable Analytics Augmented Reality Club",
   "tag": "Meme",
-  "descr": "We do things related with Data Mining, Artificial Intelligence, Actionable Analytics, and Augmented Reality!"
+  "descr": "We do things related with Data Mining, Artificial Intelligence, Actionable Analytics, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "College Virtual Reality Microservice Blockchain Internet of Things Club": {
   "name": "College Virtual Reality Microservice Blockchain Internet of Things Club",
   "tag": "Meme",
-  "descr": "We do things related with Virtual Reality, Microservice, Blockchain, and Internet of Things!"
+  "descr": "We do things related with Virtual Reality, Microservice, Blockchain, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Penn Robotics Data Mining Machine Learning Quantum Computing Club": {
   "name": "Penn Robotics Data Mining Machine Learning Quantum Computing Club",
   "tag": "Potato",
-  "descr": "We do things related with Robotics, Data Mining, Machine Learning, and Quantum Computing!"
+  "descr": "We do things related with Robotics, Data Mining, Machine Learning, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Wharton Blockchain Artificial Intelligence Machine Learning Virtual Reality Club": {
   "name": "Wharton Blockchain Artificial Intelligence Machine Learning Virtual Reality Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Blockchain, Artificial Intelligence, Machine Learning, and Virtual Reality!"
+  "descr": "We do things related with Blockchain, Artificial Intelligence, Machine Learning, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Microservice Data Mining Artificial Intelligence Augmented Reality Club": {
   "name": "Engineering Microservice Data Mining Artificial Intelligence Augmented Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Microservice, Data Mining, Artificial Intelligence, and Augmented Reality!"
+  "descr": "We do things related with Microservice, Data Mining, Artificial Intelligence, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Nursing Actionable Analytics Artificial Intelligence Machine Learning Big Data Club": {
   "name": "Nursing Actionable Analytics Artificial Intelligence Machine Learning Big Data Club",
   "tag": "Social",
-  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Machine Learning, and Big Data!"
+  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Machine Learning, and Big Data!",
+  "favorites": 0
  },
- {
+ "Nursing Data Mining Virtual Reality Robotics Artificial Intelligence Club": {
   "name": "Nursing Data Mining Virtual Reality Robotics Artificial Intelligence Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Data Mining, Virtual Reality, Robotics, and Artificial Intelligence!"
+  "descr": "We do things related with Data Mining, Virtual Reality, Robotics, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Penn Quantum Computing Machine Learning Actionable Analytics Internet of Things Club": {
   "name": "Penn Quantum Computing Machine Learning Actionable Analytics Internet of Things Club",
   "tag": "Potato",
-  "descr": "We do things related with Quantum Computing, Machine Learning, Actionable Analytics, and Internet of Things!"
+  "descr": "We do things related with Quantum Computing, Machine Learning, Actionable Analytics, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Engineering Artificial Intelligence Blockchain Quantum Computing Virtual Reality Club": {
   "name": "Engineering Artificial Intelligence Blockchain Quantum Computing Virtual Reality Club",
   "tag": "Meme",
-  "descr": "We do things related with Artificial Intelligence, Blockchain, Quantum Computing, and Virtual Reality!"
+  "descr": "We do things related with Artificial Intelligence, Blockchain, Quantum Computing, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Microservice Blockchain Big Data Augmented Reality Club": {
   "name": "Engineering Microservice Blockchain Big Data Augmented Reality Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Microservice, Blockchain, Big Data, and Augmented Reality!"
+  "descr": "We do things related with Microservice, Blockchain, Big Data, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "College Robotics Big Data Artificial Intelligence Data Mining Club": {
   "name": "College Robotics Big Data Artificial Intelligence Data Mining Club",
   "tag": "Potato",
-  "descr": "We do things related with Robotics, Big Data, Artificial Intelligence, and Data Mining!"
+  "descr": "We do things related with Robotics, Big Data, Artificial Intelligence, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Engineering Blockchain Data Mining Robotics Artificial Intelligence Club": {
   "name": "Engineering Blockchain Data Mining Robotics Artificial Intelligence Club",
   "tag": "Potato",
-  "descr": "We do things related with Blockchain, Data Mining, Robotics, and Artificial Intelligence!"
+  "descr": "We do things related with Blockchain, Data Mining, Robotics, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Engineering Quantum Computing Data Mining Blockchain Augmented Reality Club": {
   "name": "Engineering Quantum Computing Data Mining Blockchain Augmented Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Quantum Computing, Data Mining, Blockchain, and Augmented Reality!"
+  "descr": "We do things related with Quantum Computing, Data Mining, Blockchain, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Wharton Data Mining Augmented Reality Machine Learning Virtual Reality Club": {
   "name": "Wharton Data Mining Augmented Reality Machine Learning Virtual Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Data Mining, Augmented Reality, Machine Learning, and Virtual Reality!"
+  "descr": "We do things related with Data Mining, Augmented Reality, Machine Learning, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Actionable Analytics Blockchain Quantum Computing Microservice Club": {
   "name": "Engineering Actionable Analytics Blockchain Quantum Computing Microservice Club",
   "tag": "Potato",
-  "descr": "We do things related with Actionable Analytics, Blockchain, Quantum Computing, and Microservice!"
+  "descr": "We do things related with Actionable Analytics, Blockchain, Quantum Computing, and Microservice!",
+  "favorites": 0
  },
- {
+ "Wharton Virtual Reality Robotics Big Data Data Mining Club": {
   "name": "Wharton Virtual Reality Robotics Big Data Data Mining Club",
   "tag": "Potato",
-  "descr": "We do things related with Virtual Reality, Robotics, Big Data, and Data Mining!"
+  "descr": "We do things related with Virtual Reality, Robotics, Big Data, and Data Mining!",
+  "favorites": 0
  },
- {
+ "College Robotics Augmented Reality Big Data Data Mining Club": {
   "name": "College Robotics Augmented Reality Big Data Data Mining Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Robotics, Augmented Reality, Big Data, and Data Mining!"
+  "descr": "We do things related with Robotics, Augmented Reality, Big Data, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Engineering Machine Learning Quantum Computing Blockchain Virtual Reality Club": {
   "name": "Engineering Machine Learning Quantum Computing Blockchain Virtual Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Machine Learning, Quantum Computing, Blockchain, and Virtual Reality!"
+  "descr": "We do things related with Machine Learning, Quantum Computing, Blockchain, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Penn Robotics Blockchain Actionable Analytics Microservice Club": {
   "name": "Penn Robotics Blockchain Actionable Analytics Microservice Club",
   "tag": "Meme",
-  "descr": "We do things related with Robotics, Blockchain, Actionable Analytics, and Microservice!"
+  "descr": "We do things related with Robotics, Blockchain, Actionable Analytics, and Microservice!",
+  "favorites": 0
  },
- {
+ "Wharton Microservice Machine Learning Virtual Reality Augmented Reality Club": {
   "name": "Wharton Microservice Machine Learning Virtual Reality Augmented Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Microservice, Machine Learning, Virtual Reality, and Augmented Reality!"
+  "descr": "We do things related with Microservice, Machine Learning, Virtual Reality, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "College Actionable Analytics Data Mining Quantum Computing Robotics Club": {
   "name": "College Actionable Analytics Data Mining Quantum Computing Robotics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Actionable Analytics, Data Mining, Quantum Computing, and Robotics!"
+  "descr": "We do things related with Actionable Analytics, Data Mining, Quantum Computing, and Robotics!",
+  "favorites": 0
  },
- {
+ "Nursing Machine Learning Quantum Computing Data Mining Blockchain Club": {
   "name": "Nursing Machine Learning Quantum Computing Data Mining Blockchain Club",
   "tag": "Potato",
-  "descr": "We do things related with Machine Learning, Quantum Computing, Data Mining, and Blockchain!"
+  "descr": "We do things related with Machine Learning, Quantum Computing, Data Mining, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Wharton Virtual Reality Actionable Analytics Big Data Quantum Computing Club": {
   "name": "Wharton Virtual Reality Actionable Analytics Big Data Quantum Computing Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Virtual Reality, Actionable Analytics, Big Data, and Quantum Computing!"
+  "descr": "We do things related with Virtual Reality, Actionable Analytics, Big Data, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Engineering Artificial Intelligence Internet of Things Robotics Actionable Analytics Club": {
   "name": "Engineering Artificial Intelligence Internet of Things Robotics Actionable Analytics Club",
   "tag": "Meme",
-  "descr": "We do things related with Artificial Intelligence, Internet of Things, Robotics, and Actionable Analytics!"
+  "descr": "We do things related with Artificial Intelligence, Internet of Things, Robotics, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Penn Virtual Reality Data Mining Robotics Microservice Club": {
   "name": "Penn Virtual Reality Data Mining Robotics Microservice Club",
   "tag": "Potato",
-  "descr": "We do things related with Virtual Reality, Data Mining, Robotics, and Microservice!"
+  "descr": "We do things related with Virtual Reality, Data Mining, Robotics, and Microservice!",
+  "favorites": 0
  },
- {
+ "Engineering Microservice Actionable Analytics Virtual Reality Artificial Intelligence Club": {
   "name": "Engineering Microservice Actionable Analytics Virtual Reality Artificial Intelligence Club",
   "tag": "Social",
-  "descr": "We do things related with Microservice, Actionable Analytics, Virtual Reality, and Artificial Intelligence!"
+  "descr": "We do things related with Microservice, Actionable Analytics, Virtual Reality, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Wharton Data Mining Actionable Analytics Blockchain Robotics Club": {
   "name": "Wharton Data Mining Actionable Analytics Blockchain Robotics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Data Mining, Actionable Analytics, Blockchain, and Robotics!"
+  "descr": "We do things related with Data Mining, Actionable Analytics, Blockchain, and Robotics!",
+  "favorites": 0
  },
- {
+ "Wharton Artificial Intelligence Data Mining Virtual Reality Big Data Club": {
   "name": "Wharton Artificial Intelligence Data Mining Virtual Reality Big Data Club",
   "tag": "Social",
-  "descr": "We do things related with Artificial Intelligence, Data Mining, Virtual Reality, and Big Data!"
+  "descr": "We do things related with Artificial Intelligence, Data Mining, Virtual Reality, and Big Data!",
+  "favorites": 0
  },
- {
+ "College Augmented Reality Big Data Internet of Things Microservice Club": {
   "name": "College Augmented Reality Big Data Internet of Things Microservice Club",
   "tag": "Meme",
-  "descr": "We do things related with Augmented Reality, Big Data, Internet of Things, and Microservice!"
+  "descr": "We do things related with Augmented Reality, Big Data, Internet of Things, and Microservice!",
+  "favorites": 0
  },
- {
+ "Wharton Machine Learning Quantum Computing Virtual Reality Microservice Club": {
   "name": "Wharton Machine Learning Quantum Computing Virtual Reality Microservice Club",
   "tag": "Social",
-  "descr": "We do things related with Machine Learning, Quantum Computing, Virtual Reality, and Microservice!"
+  "descr": "We do things related with Machine Learning, Quantum Computing, Virtual Reality, and Microservice!",
+  "favorites": 0
  },
- {
+ "Penn Actionable Analytics Robotics Internet of Things Augmented Reality Club": {
   "name": "Penn Actionable Analytics Robotics Internet of Things Augmented Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Actionable Analytics, Robotics, Internet of Things, and Augmented Reality!"
+  "descr": "We do things related with Actionable Analytics, Robotics, Internet of Things, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Nursing Actionable Analytics Virtual Reality Robotics Artificial Intelligence Club": {
   "name": "Nursing Actionable Analytics Virtual Reality Robotics Artificial Intelligence Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Actionable Analytics, Virtual Reality, Robotics, and Artificial Intelligence!"
+  "descr": "We do things related with Actionable Analytics, Virtual Reality, Robotics, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Wharton Blockchain Machine Learning Big Data Artificial Intelligence Club": {
   "name": "Wharton Blockchain Machine Learning Big Data Artificial Intelligence Club",
   "tag": "Meme",
-  "descr": "We do things related with Blockchain, Machine Learning, Big Data, and Artificial Intelligence!"
+  "descr": "We do things related with Blockchain, Machine Learning, Big Data, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Wharton Machine Learning Artificial Intelligence Microservice Big Data Club": {
   "name": "Wharton Machine Learning Artificial Intelligence Microservice Big Data Club",
   "tag": "Potato",
-  "descr": "We do things related with Machine Learning, Artificial Intelligence, Microservice, and Big Data!"
+  "descr": "We do things related with Machine Learning, Artificial Intelligence, Microservice, and Big Data!",
+  "favorites": 0
  },
- {
+ "Nursing Actionable Analytics Blockchain Augmented Reality Microservice Club": {
   "name": "Nursing Actionable Analytics Blockchain Augmented Reality Microservice Club",
   "tag": "Meme",
-  "descr": "We do things related with Actionable Analytics, Blockchain, Augmented Reality, and Microservice!"
+  "descr": "We do things related with Actionable Analytics, Blockchain, Augmented Reality, and Microservice!",
+  "favorites": 0
  },
- {
+ "Nursing Machine Learning Virtual Reality Data Mining Robotics Club": {
   "name": "Nursing Machine Learning Virtual Reality Data Mining Robotics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Machine Learning, Virtual Reality, Data Mining, and Robotics!"
+  "descr": "We do things related with Machine Learning, Virtual Reality, Data Mining, and Robotics!",
+  "favorites": 0
  },
- {
+ "Nursing Virtual Reality Quantum Computing Big Data Augmented Reality Club": {
   "name": "Nursing Virtual Reality Quantum Computing Big Data Augmented Reality Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Virtual Reality, Quantum Computing, Big Data, and Augmented Reality!"
+  "descr": "We do things related with Virtual Reality, Quantum Computing, Big Data, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Penn Artificial Intelligence Big Data Quantum Computing Microservice Club": {
   "name": "Penn Artificial Intelligence Big Data Quantum Computing Microservice Club",
   "tag": "Potato",
-  "descr": "We do things related with Artificial Intelligence, Big Data, Quantum Computing, and Microservice!"
+  "descr": "We do things related with Artificial Intelligence, Big Data, Quantum Computing, and Microservice!",
+  "favorites": 0
  },
- {
+ "Penn Data Mining Robotics Blockchain Artificial Intelligence Club": {
   "name": "Penn Data Mining Robotics Blockchain Artificial Intelligence Club",
   "tag": "Meme",
-  "descr": "We do things related with Data Mining, Robotics, Blockchain, and Artificial Intelligence!"
+  "descr": "We do things related with Data Mining, Robotics, Blockchain, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Engineering Augmented Reality Internet of Things Blockchain Quantum Computing Club": {
   "name": "Engineering Augmented Reality Internet of Things Blockchain Quantum Computing Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Augmented Reality, Internet of Things, Blockchain, and Quantum Computing!"
+  "descr": "We do things related with Augmented Reality, Internet of Things, Blockchain, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Wharton Quantum Computing Robotics Machine Learning Artificial Intelligence Club": {
   "name": "Wharton Quantum Computing Robotics Machine Learning Artificial Intelligence Club",
   "tag": "Meme",
-  "descr": "We do things related with Quantum Computing, Robotics, Machine Learning, and Artificial Intelligence!"
+  "descr": "We do things related with Quantum Computing, Robotics, Machine Learning, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Wharton Microservice Virtual Reality Data Mining Augmented Reality Club": {
   "name": "Wharton Microservice Virtual Reality Data Mining Augmented Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Microservice, Virtual Reality, Data Mining, and Augmented Reality!"
+  "descr": "We do things related with Microservice, Virtual Reality, Data Mining, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Wharton Robotics Internet of Things Blockchain Data Mining Club": {
   "name": "Wharton Robotics Internet of Things Blockchain Data Mining Club",
   "tag": "Potato",
-  "descr": "We do things related with Robotics, Internet of Things, Blockchain, and Data Mining!"
+  "descr": "We do things related with Robotics, Internet of Things, Blockchain, and Data Mining!",
+  "favorites": 0
  },
- {
+ "College Virtual Reality Artificial Intelligence Internet of Things Big Data Club": {
   "name": "College Virtual Reality Artificial Intelligence Internet of Things Big Data Club",
   "tag": "Potato",
-  "descr": "We do things related with Virtual Reality, Artificial Intelligence, Internet of Things, and Big Data!"
+  "descr": "We do things related with Virtual Reality, Artificial Intelligence, Internet of Things, and Big Data!",
+  "favorites": 0
  },
- {
+ "Nursing Big Data Internet of Things Actionable Analytics Robotics Club": {
   "name": "Nursing Big Data Internet of Things Actionable Analytics Robotics Club",
   "tag": "Potato",
-  "descr": "We do things related with Big Data, Internet of Things, Actionable Analytics, and Robotics!"
+  "descr": "We do things related with Big Data, Internet of Things, Actionable Analytics, and Robotics!",
+  "favorites": 0
  },
- {
+ "Penn Machine Learning Quantum Computing Blockchain Actionable Analytics Club": {
   "name": "Penn Machine Learning Quantum Computing Blockchain Actionable Analytics Club",
   "tag": "Meme",
-  "descr": "We do things related with Machine Learning, Quantum Computing, Blockchain, and Actionable Analytics!"
+  "descr": "We do things related with Machine Learning, Quantum Computing, Blockchain, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Wharton Virtual Reality Actionable Analytics Machine Learning Blockchain Club": {
   "name": "Wharton Virtual Reality Actionable Analytics Machine Learning Blockchain Club",
   "tag": "Potato",
-  "descr": "We do things related with Virtual Reality, Actionable Analytics, Machine Learning, and Blockchain!"
+  "descr": "We do things related with Virtual Reality, Actionable Analytics, Machine Learning, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Engineering Robotics Machine Learning Internet of Things Virtual Reality Club": {
   "name": "Engineering Robotics Machine Learning Internet of Things Virtual Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Robotics, Machine Learning, Internet of Things, and Virtual Reality!"
+  "descr": "We do things related with Robotics, Machine Learning, Internet of Things, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Wharton Artificial Intelligence Augmented Reality Internet of Things Quantum Computing Club": {
   "name": "Wharton Artificial Intelligence Augmented Reality Internet of Things Quantum Computing Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Artificial Intelligence, Augmented Reality, Internet of Things, and Quantum Computing!"
+  "descr": "We do things related with Artificial Intelligence, Augmented Reality, Internet of Things, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Penn Artificial Intelligence Big Data Augmented Reality Internet of Things Club": {
   "name": "Penn Artificial Intelligence Big Data Augmented Reality Internet of Things Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Artificial Intelligence, Big Data, Augmented Reality, and Internet of Things!"
+  "descr": "We do things related with Artificial Intelligence, Big Data, Augmented Reality, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Nursing Data Mining Actionable Analytics Quantum Computing Machine Learning Club": {
   "name": "Nursing Data Mining Actionable Analytics Quantum Computing Machine Learning Club",
   "tag": "Meme",
-  "descr": "We do things related with Data Mining, Actionable Analytics, Quantum Computing, and Machine Learning!"
+  "descr": "We do things related with Data Mining, Actionable Analytics, Quantum Computing, and Machine Learning!",
+  "favorites": 0
  },
- {
+ "Wharton Data Mining Robotics Internet of Things Artificial Intelligence Club": {
   "name": "Wharton Data Mining Robotics Internet of Things Artificial Intelligence Club",
   "tag": "Social",
-  "descr": "We do things related with Data Mining, Robotics, Internet of Things, and Artificial Intelligence!"
+  "descr": "We do things related with Data Mining, Robotics, Internet of Things, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Penn Big Data Blockchain Augmented Reality Actionable Analytics Club": {
   "name": "Penn Big Data Blockchain Augmented Reality Actionable Analytics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Big Data, Blockchain, Augmented Reality, and Actionable Analytics!"
+  "descr": "We do things related with Big Data, Blockchain, Augmented Reality, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Wharton Actionable Analytics Big Data Augmented Reality Internet of Things Club": {
   "name": "Wharton Actionable Analytics Big Data Augmented Reality Internet of Things Club",
   "tag": "Potato",
-  "descr": "We do things related with Actionable Analytics, Big Data, Augmented Reality, and Internet of Things!"
+  "descr": "We do things related with Actionable Analytics, Big Data, Augmented Reality, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Nursing Data Mining Virtual Reality Augmented Reality Machine Learning Club": {
   "name": "Nursing Data Mining Virtual Reality Augmented Reality Machine Learning Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Data Mining, Virtual Reality, Augmented Reality, and Machine Learning!"
+  "descr": "We do things related with Data Mining, Virtual Reality, Augmented Reality, and Machine Learning!",
+  "favorites": 0
  },
- {
+ "College Data Mining Machine Learning Actionable Analytics Blockchain Club": {
   "name": "College Data Mining Machine Learning Actionable Analytics Blockchain Club",
   "tag": "Meme",
-  "descr": "We do things related with Data Mining, Machine Learning, Actionable Analytics, and Blockchain!"
+  "descr": "We do things related with Data Mining, Machine Learning, Actionable Analytics, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Penn Blockchain Augmented Reality Quantum Computing Microservice Club": {
   "name": "Penn Blockchain Augmented Reality Quantum Computing Microservice Club",
   "tag": "Potato",
-  "descr": "We do things related with Blockchain, Augmented Reality, Quantum Computing, and Microservice!"
+  "descr": "We do things related with Blockchain, Augmented Reality, Quantum Computing, and Microservice!",
+  "favorites": 0
  },
- {
+ "Wharton Big Data Blockchain Augmented Reality Artificial Intelligence Club": {
   "name": "Wharton Big Data Blockchain Augmented Reality Artificial Intelligence Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Big Data, Blockchain, Augmented Reality, and Artificial Intelligence!"
+  "descr": "We do things related with Big Data, Blockchain, Augmented Reality, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Penn Quantum Computing Artificial Intelligence Robotics Actionable Analytics Club": {
   "name": "Penn Quantum Computing Artificial Intelligence Robotics Actionable Analytics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Quantum Computing, Artificial Intelligence, Robotics, and Actionable Analytics!"
+  "descr": "We do things related with Quantum Computing, Artificial Intelligence, Robotics, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "College Machine Learning Robotics Microservice Data Mining Club": {
   "name": "College Machine Learning Robotics Microservice Data Mining Club",
   "tag": "Social",
-  "descr": "We do things related with Machine Learning, Robotics, Microservice, and Data Mining!"
+  "descr": "We do things related with Machine Learning, Robotics, Microservice, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Wharton Artificial Intelligence Big Data Microservice Internet of Things Club": {
   "name": "Wharton Artificial Intelligence Big Data Microservice Internet of Things Club",
   "tag": "Social",
-  "descr": "We do things related with Artificial Intelligence, Big Data, Microservice, and Internet of Things!"
+  "descr": "We do things related with Artificial Intelligence, Big Data, Microservice, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Nursing Big Data Machine Learning Internet of Things Augmented Reality Club": {
   "name": "Nursing Big Data Machine Learning Internet of Things Augmented Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Big Data, Machine Learning, Internet of Things, and Augmented Reality!"
+  "descr": "We do things related with Big Data, Machine Learning, Internet of Things, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Nursing Big Data Augmented Reality Microservice Quantum Computing Club": {
   "name": "Nursing Big Data Augmented Reality Microservice Quantum Computing Club",
   "tag": "Potato",
-  "descr": "We do things related with Big Data, Augmented Reality, Microservice, and Quantum Computing!"
+  "descr": "We do things related with Big Data, Augmented Reality, Microservice, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Wharton Internet of Things Augmented Reality Artificial Intelligence Big Data Club": {
   "name": "Wharton Internet of Things Augmented Reality Artificial Intelligence Big Data Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Internet of Things, Augmented Reality, Artificial Intelligence, and Big Data!"
+  "descr": "We do things related with Internet of Things, Augmented Reality, Artificial Intelligence, and Big Data!",
+  "favorites": 0
  },
- {
+ "Wharton Actionable Analytics Artificial Intelligence Internet of Things Machine Learning Club": {
   "name": "Wharton Actionable Analytics Artificial Intelligence Internet of Things Machine Learning Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Internet of Things, and Machine Learning!"
+  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Internet of Things, and Machine Learning!",
+  "favorites": 0
  },
- {
+ "Engineering Machine Learning Augmented Reality Data Mining Actionable Analytics Club": {
   "name": "Engineering Machine Learning Augmented Reality Data Mining Actionable Analytics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Machine Learning, Augmented Reality, Data Mining, and Actionable Analytics!"
+  "descr": "We do things related with Machine Learning, Augmented Reality, Data Mining, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Engineering Actionable Analytics Artificial Intelligence Virtual Reality Machine Learning Club": {
   "name": "Engineering Actionable Analytics Artificial Intelligence Virtual Reality Machine Learning Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Virtual Reality, and Machine Learning!"
+  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Virtual Reality, and Machine Learning!",
+  "favorites": 0
  },
- {
+ "Nursing Machine Learning Blockchain Big Data Data Mining Club": {
   "name": "Nursing Machine Learning Blockchain Big Data Data Mining Club",
   "tag": "Meme",
-  "descr": "We do things related with Machine Learning, Blockchain, Big Data, and Data Mining!"
+  "descr": "We do things related with Machine Learning, Blockchain, Big Data, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Wharton Machine Learning Data Mining Artificial Intelligence Blockchain Club": {
   "name": "Wharton Machine Learning Data Mining Artificial Intelligence Blockchain Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Machine Learning, Data Mining, Artificial Intelligence, and Blockchain!"
+  "descr": "We do things related with Machine Learning, Data Mining, Artificial Intelligence, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Wharton Quantum Computing Big Data Augmented Reality Virtual Reality Club": {
   "name": "Wharton Quantum Computing Big Data Augmented Reality Virtual Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Quantum Computing, Big Data, Augmented Reality, and Virtual Reality!"
+  "descr": "We do things related with Quantum Computing, Big Data, Augmented Reality, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Wharton Blockchain Big Data Augmented Reality Quantum Computing Club": {
   "name": "Wharton Blockchain Big Data Augmented Reality Quantum Computing Club",
   "tag": "Meme",
-  "descr": "We do things related with Blockchain, Big Data, Augmented Reality, and Quantum Computing!"
+  "descr": "We do things related with Blockchain, Big Data, Augmented Reality, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Penn Microservice Augmented Reality Data Mining Machine Learning Club": {
   "name": "Penn Microservice Augmented Reality Data Mining Machine Learning Club",
   "tag": "Social",
-  "descr": "We do things related with Microservice, Augmented Reality, Data Mining, and Machine Learning!"
+  "descr": "We do things related with Microservice, Augmented Reality, Data Mining, and Machine Learning!",
+  "favorites": 0
  },
- {
+ "College Internet of Things Machine Learning Quantum Computing Artificial Intelligence Club": {
   "name": "College Internet of Things Machine Learning Quantum Computing Artificial Intelligence Club",
   "tag": "Meme",
-  "descr": "We do things related with Internet of Things, Machine Learning, Quantum Computing, and Artificial Intelligence!"
+  "descr": "We do things related with Internet of Things, Machine Learning, Quantum Computing, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "College Internet of Things Actionable Analytics Artificial Intelligence Big Data Club": {
   "name": "College Internet of Things Actionable Analytics Artificial Intelligence Big Data Club",
   "tag": "Social",
-  "descr": "We do things related with Internet of Things, Actionable Analytics, Artificial Intelligence, and Big Data!"
+  "descr": "We do things related with Internet of Things, Actionable Analytics, Artificial Intelligence, and Big Data!",
+  "favorites": 0
  },
- {
+ "Penn Artificial Intelligence Machine Learning Augmented Reality Virtual Reality Club": {
   "name": "Penn Artificial Intelligence Machine Learning Augmented Reality Virtual Reality Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Artificial Intelligence, Machine Learning, Augmented Reality, and Virtual Reality!"
+  "descr": "We do things related with Artificial Intelligence, Machine Learning, Augmented Reality, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Actionable Analytics Augmented Reality Blockchain Microservice Club": {
   "name": "Engineering Actionable Analytics Augmented Reality Blockchain Microservice Club",
   "tag": "Meme",
-  "descr": "We do things related with Actionable Analytics, Augmented Reality, Blockchain, and Microservice!"
+  "descr": "We do things related with Actionable Analytics, Augmented Reality, Blockchain, and Microservice!",
+  "favorites": 0
  },
- {
+ "Engineering Data Mining Big Data Robotics Virtual Reality Club": {
   "name": "Engineering Data Mining Big Data Robotics Virtual Reality Club",
   "tag": "Meme",
-  "descr": "We do things related with Data Mining, Big Data, Robotics, and Virtual Reality!"
+  "descr": "We do things related with Data Mining, Big Data, Robotics, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Penn Actionable Analytics Augmented Reality Virtual Reality Quantum Computing Club": {
   "name": "Penn Actionable Analytics Augmented Reality Virtual Reality Quantum Computing Club",
   "tag": "Meme",
-  "descr": "We do things related with Actionable Analytics, Augmented Reality, Virtual Reality, and Quantum Computing!"
+  "descr": "We do things related with Actionable Analytics, Augmented Reality, Virtual Reality, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Engineering Augmented Reality Quantum Computing Machine Learning Big Data Club": {
   "name": "Engineering Augmented Reality Quantum Computing Machine Learning Big Data Club",
   "tag": "Meme",
-  "descr": "We do things related with Augmented Reality, Quantum Computing, Machine Learning, and Big Data!"
+  "descr": "We do things related with Augmented Reality, Quantum Computing, Machine Learning, and Big Data!",
+  "favorites": 0
  },
- {
+ "Wharton Internet of Things Actionable Analytics Quantum Computing Virtual Reality Club": {
   "name": "Wharton Internet of Things Actionable Analytics Quantum Computing Virtual Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Internet of Things, Actionable Analytics, Quantum Computing, and Virtual Reality!"
+  "descr": "We do things related with Internet of Things, Actionable Analytics, Quantum Computing, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Penn Microservice Big Data Virtual Reality Actionable Analytics Club": {
   "name": "Penn Microservice Big Data Virtual Reality Actionable Analytics Club",
   "tag": "Meme",
-  "descr": "We do things related with Microservice, Big Data, Virtual Reality, and Actionable Analytics!"
+  "descr": "We do things related with Microservice, Big Data, Virtual Reality, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Nursing Virtual Reality Machine Learning Augmented Reality Quantum Computing Club": {
   "name": "Nursing Virtual Reality Machine Learning Augmented Reality Quantum Computing Club",
   "tag": "Social",
-  "descr": "We do things related with Virtual Reality, Machine Learning, Augmented Reality, and Quantum Computing!"
+  "descr": "We do things related with Virtual Reality, Machine Learning, Augmented Reality, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "College Virtual Reality Quantum Computing Blockchain Augmented Reality Club": {
   "name": "College Virtual Reality Quantum Computing Blockchain Augmented Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Virtual Reality, Quantum Computing, Blockchain, and Augmented Reality!"
+  "descr": "We do things related with Virtual Reality, Quantum Computing, Blockchain, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Penn Artificial Intelligence Big Data Machine Learning Actionable Analytics Club": {
   "name": "Penn Artificial Intelligence Big Data Machine Learning Actionable Analytics Club",
   "tag": "Meme",
-  "descr": "We do things related with Artificial Intelligence, Big Data, Machine Learning, and Actionable Analytics!"
+  "descr": "We do things related with Artificial Intelligence, Big Data, Machine Learning, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Engineering Artificial Intelligence Blockchain Robotics Quantum Computing Club": {
   "name": "Engineering Artificial Intelligence Blockchain Robotics Quantum Computing Club",
   "tag": "Potato",
-  "descr": "We do things related with Artificial Intelligence, Blockchain, Robotics, and Quantum Computing!"
+  "descr": "We do things related with Artificial Intelligence, Blockchain, Robotics, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Penn Virtual Reality Microservice Machine Learning Robotics Club": {
   "name": "Penn Virtual Reality Microservice Machine Learning Robotics Club",
   "tag": "Potato",
-  "descr": "We do things related with Virtual Reality, Microservice, Machine Learning, and Robotics!"
+  "descr": "We do things related with Virtual Reality, Microservice, Machine Learning, and Robotics!",
+  "favorites": 0
  },
- {
+ "Engineering Data Mining Robotics Quantum Computing Artificial Intelligence Club": {
   "name": "Engineering Data Mining Robotics Quantum Computing Artificial Intelligence Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Data Mining, Robotics, Quantum Computing, and Artificial Intelligence!"
+  "descr": "We do things related with Data Mining, Robotics, Quantum Computing, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Engineering Virtual Reality Quantum Computing Artificial Intelligence Robotics Club": {
   "name": "Engineering Virtual Reality Quantum Computing Artificial Intelligence Robotics Club",
   "tag": "Social",
-  "descr": "We do things related with Virtual Reality, Quantum Computing, Artificial Intelligence, and Robotics!"
+  "descr": "We do things related with Virtual Reality, Quantum Computing, Artificial Intelligence, and Robotics!",
+  "favorites": 0
  },
- {
+ "College Artificial Intelligence Big Data Machine Learning Data Mining Club": {
   "name": "College Artificial Intelligence Big Data Machine Learning Data Mining Club",
   "tag": "Meme",
-  "descr": "We do things related with Artificial Intelligence, Big Data, Machine Learning, and Data Mining!"
+  "descr": "We do things related with Artificial Intelligence, Big Data, Machine Learning, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Penn Internet of Things Machine Learning Augmented Reality Virtual Reality Club": {
   "name": "Penn Internet of Things Machine Learning Augmented Reality Virtual Reality Club",
   "tag": "Meme",
-  "descr": "We do things related with Internet of Things, Machine Learning, Augmented Reality, and Virtual Reality!"
+  "descr": "We do things related with Internet of Things, Machine Learning, Augmented Reality, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Nursing Data Mining Quantum Computing Actionable Analytics Augmented Reality Club": {
   "name": "Nursing Data Mining Quantum Computing Actionable Analytics Augmented Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Data Mining, Quantum Computing, Actionable Analytics, and Augmented Reality!"
+  "descr": "We do things related with Data Mining, Quantum Computing, Actionable Analytics, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Augmented Reality Actionable Analytics Virtual Reality Internet of Things Club": {
   "name": "Engineering Augmented Reality Actionable Analytics Virtual Reality Internet of Things Club",
   "tag": "Social",
-  "descr": "We do things related with Augmented Reality, Actionable Analytics, Virtual Reality, and Internet of Things!"
+  "descr": "We do things related with Augmented Reality, Actionable Analytics, Virtual Reality, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Wharton Augmented Reality Internet of Things Big Data Blockchain Club": {
   "name": "Wharton Augmented Reality Internet of Things Big Data Blockchain Club",
   "tag": "Potato",
-  "descr": "We do things related with Augmented Reality, Internet of Things, Big Data, and Blockchain!"
+  "descr": "We do things related with Augmented Reality, Internet of Things, Big Data, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Engineering Robotics Big Data Internet of Things Blockchain Club": {
   "name": "Engineering Robotics Big Data Internet of Things Blockchain Club",
   "tag": "Meme",
-  "descr": "We do things related with Robotics, Big Data, Internet of Things, and Blockchain!"
+  "descr": "We do things related with Robotics, Big Data, Internet of Things, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Penn Microservice Actionable Analytics Augmented Reality Virtual Reality Club": {
   "name": "Penn Microservice Actionable Analytics Augmented Reality Virtual Reality Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Microservice, Actionable Analytics, Augmented Reality, and Virtual Reality!"
+  "descr": "We do things related with Microservice, Actionable Analytics, Augmented Reality, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "College Augmented Reality Machine Learning Quantum Computing Microservice Club": {
   "name": "College Augmented Reality Machine Learning Quantum Computing Microservice Club",
   "tag": "Social",
-  "descr": "We do things related with Augmented Reality, Machine Learning, Quantum Computing, and Microservice!"
+  "descr": "We do things related with Augmented Reality, Machine Learning, Quantum Computing, and Microservice!",
+  "favorites": 0
  },
- {
+ "Nursing Big Data Data Mining Machine Learning Blockchain Club": {
   "name": "Nursing Big Data Data Mining Machine Learning Blockchain Club",
   "tag": "Potato",
-  "descr": "We do things related with Big Data, Data Mining, Machine Learning, and Blockchain!"
+  "descr": "We do things related with Big Data, Data Mining, Machine Learning, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Engineering Data Mining Virtual Reality Machine Learning Internet of Things Club": {
   "name": "Engineering Data Mining Virtual Reality Machine Learning Internet of Things Club",
   "tag": "Social",
-  "descr": "We do things related with Data Mining, Virtual Reality, Machine Learning, and Internet of Things!"
+  "descr": "We do things related with Data Mining, Virtual Reality, Machine Learning, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Nursing Big Data Internet of Things Microservice Actionable Analytics Club": {
   "name": "Nursing Big Data Internet of Things Microservice Actionable Analytics Club",
   "tag": "Meme",
-  "descr": "We do things related with Big Data, Internet of Things, Microservice, and Actionable Analytics!"
+  "descr": "We do things related with Big Data, Internet of Things, Microservice, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Penn Internet of Things Microservice Augmented Reality Blockchain Club": {
   "name": "Penn Internet of Things Microservice Augmented Reality Blockchain Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Internet of Things, Microservice, Augmented Reality, and Blockchain!"
+  "descr": "We do things related with Internet of Things, Microservice, Augmented Reality, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Nursing Data Mining Robotics Microservice Machine Learning Club": {
   "name": "Nursing Data Mining Robotics Microservice Machine Learning Club",
   "tag": "Social",
-  "descr": "We do things related with Data Mining, Robotics, Microservice, and Machine Learning!"
+  "descr": "We do things related with Data Mining, Robotics, Microservice, and Machine Learning!",
+  "favorites": 0
  },
- {
+ "College Machine Learning Data Mining Microservice Big Data Club": {
   "name": "College Machine Learning Data Mining Microservice Big Data Club",
   "tag": "Potato",
-  "descr": "We do things related with Machine Learning, Data Mining, Microservice, and Big Data!"
+  "descr": "We do things related with Machine Learning, Data Mining, Microservice, and Big Data!",
+  "favorites": 0
  },
- {
+ "Wharton Actionable Analytics Blockchain Big Data Internet of Things Club": {
   "name": "Wharton Actionable Analytics Blockchain Big Data Internet of Things Club",
   "tag": "Potato",
-  "descr": "We do things related with Actionable Analytics, Blockchain, Big Data, and Internet of Things!"
+  "descr": "We do things related with Actionable Analytics, Blockchain, Big Data, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Penn Artificial Intelligence Actionable Analytics Microservice Quantum Computing Club": {
   "name": "Penn Artificial Intelligence Actionable Analytics Microservice Quantum Computing Club",
   "tag": "Social",
-  "descr": "We do things related with Artificial Intelligence, Actionable Analytics, Microservice, and Quantum Computing!"
+  "descr": "We do things related with Artificial Intelligence, Actionable Analytics, Microservice, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Engineering Blockchain Machine Learning Virtual Reality Quantum Computing Club": {
   "name": "Engineering Blockchain Machine Learning Virtual Reality Quantum Computing Club",
   "tag": "Meme",
-  "descr": "We do things related with Blockchain, Machine Learning, Virtual Reality, and Quantum Computing!"
+  "descr": "We do things related with Blockchain, Machine Learning, Virtual Reality, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Wharton Quantum Computing Actionable Analytics Microservice Data Mining Club": {
   "name": "Wharton Quantum Computing Actionable Analytics Microservice Data Mining Club",
   "tag": "Potato",
-  "descr": "We do things related with Quantum Computing, Actionable Analytics, Microservice, and Data Mining!"
+  "descr": "We do things related with Quantum Computing, Actionable Analytics, Microservice, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Engineering Augmented Reality Data Mining Machine Learning Microservice Club": {
   "name": "Engineering Augmented Reality Data Mining Machine Learning Microservice Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Augmented Reality, Data Mining, Machine Learning, and Microservice!"
+  "descr": "We do things related with Augmented Reality, Data Mining, Machine Learning, and Microservice!",
+  "favorites": 0
  },
- {
+ "College Augmented Reality Quantum Computing Machine Learning Robotics Club": {
   "name": "College Augmented Reality Quantum Computing Machine Learning Robotics Club",
   "tag": "Potato",
-  "descr": "We do things related with Augmented Reality, Quantum Computing, Machine Learning, and Robotics!"
+  "descr": "We do things related with Augmented Reality, Quantum Computing, Machine Learning, and Robotics!",
+  "favorites": 0
  },
- {
+ "Nursing Blockchain Machine Learning Augmented Reality Virtual Reality Club": {
   "name": "Nursing Blockchain Machine Learning Augmented Reality Virtual Reality Club",
   "tag": "Social",
-  "descr": "We do things related with Blockchain, Machine Learning, Augmented Reality, and Virtual Reality!"
+  "descr": "We do things related with Blockchain, Machine Learning, Augmented Reality, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Wharton Big Data Virtual Reality Robotics Augmented Reality Club": {
   "name": "Wharton Big Data Virtual Reality Robotics Augmented Reality Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Big Data, Virtual Reality, Robotics, and Augmented Reality!"
+  "descr": "We do things related with Big Data, Virtual Reality, Robotics, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Engineering Quantum Computing Artificial Intelligence Virtual Reality Machine Learning Club": {
   "name": "Engineering Quantum Computing Artificial Intelligence Virtual Reality Machine Learning Club",
   "tag": "Potato",
-  "descr": "We do things related with Quantum Computing, Artificial Intelligence, Virtual Reality, and Machine Learning!"
+  "descr": "We do things related with Quantum Computing, Artificial Intelligence, Virtual Reality, and Machine Learning!",
+  "favorites": 0
  },
- {
+ "Nursing Artificial Intelligence Data Mining Microservice Quantum Computing Club": {
   "name": "Nursing Artificial Intelligence Data Mining Microservice Quantum Computing Club",
   "tag": "Potato",
-  "descr": "We do things related with Artificial Intelligence, Data Mining, Microservice, and Quantum Computing!"
+  "descr": "We do things related with Artificial Intelligence, Data Mining, Microservice, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Penn Microservice Robotics Blockchain Internet of Things Club": {
   "name": "Penn Microservice Robotics Blockchain Internet of Things Club",
   "tag": "Potato",
-  "descr": "We do things related with Microservice, Robotics, Blockchain, and Internet of Things!"
+  "descr": "We do things related with Microservice, Robotics, Blockchain, and Internet of Things!",
+  "favorites": 0
  },
- {
+ "Nursing Augmented Reality Quantum Computing Actionable Analytics Data Mining Club": {
   "name": "Nursing Augmented Reality Quantum Computing Actionable Analytics Data Mining Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Augmented Reality, Quantum Computing, Actionable Analytics, and Data Mining!"
+  "descr": "We do things related with Augmented Reality, Quantum Computing, Actionable Analytics, and Data Mining!",
+  "favorites": 0
  },
- {
+ "Engineering Microservice Big Data Quantum Computing Virtual Reality Club": {
   "name": "Engineering Microservice Big Data Quantum Computing Virtual Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Microservice, Big Data, Quantum Computing, and Virtual Reality!"
+  "descr": "We do things related with Microservice, Big Data, Quantum Computing, and Virtual Reality!",
+  "favorites": 0
  },
- {
+ "Nursing Actionable Analytics Internet of Things Virtual Reality Artificial Intelligence Club": {
   "name": "Nursing Actionable Analytics Internet of Things Virtual Reality Artificial Intelligence Club",
   "tag": "Social",
-  "descr": "We do things related with Actionable Analytics, Internet of Things, Virtual Reality, and Artificial Intelligence!"
+  "descr": "We do things related with Actionable Analytics, Internet of Things, Virtual Reality, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Nursing Artificial Intelligence Internet of Things Quantum Computing Big Data Club": {
   "name": "Nursing Artificial Intelligence Internet of Things Quantum Computing Big Data Club",
   "tag": "Social",
-  "descr": "We do things related with Artificial Intelligence, Internet of Things, Quantum Computing, and Big Data!"
+  "descr": "We do things related with Artificial Intelligence, Internet of Things, Quantum Computing, and Big Data!",
+  "favorites": 0
  },
- {
+ "Nursing Augmented Reality Machine Learning Quantum Computing Artificial Intelligence Club": {
   "name": "Nursing Augmented Reality Machine Learning Quantum Computing Artificial Intelligence Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Augmented Reality, Machine Learning, Quantum Computing, and Artificial Intelligence!"
+  "descr": "We do things related with Augmented Reality, Machine Learning, Quantum Computing, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Nursing Actionable Analytics Big Data Internet of Things Blockchain Club": {
   "name": "Nursing Actionable Analytics Big Data Internet of Things Blockchain Club",
   "tag": "Potato",
-  "descr": "We do things related with Actionable Analytics, Big Data, Internet of Things, and Blockchain!"
+  "descr": "We do things related with Actionable Analytics, Big Data, Internet of Things, and Blockchain!",
+  "favorites": 0
  },
- {
+ "Nursing Big Data Virtual Reality Machine Learning Actionable Analytics Club": {
   "name": "Nursing Big Data Virtual Reality Machine Learning Actionable Analytics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Big Data, Virtual Reality, Machine Learning, and Actionable Analytics!"
+  "descr": "We do things related with Big Data, Virtual Reality, Machine Learning, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Engineering Virtual Reality Robotics Blockchain Actionable Analytics Club": {
   "name": "Engineering Virtual Reality Robotics Blockchain Actionable Analytics Club",
   "tag": "Potato",
-  "descr": "We do things related with Virtual Reality, Robotics, Blockchain, and Actionable Analytics!"
+  "descr": "We do things related with Virtual Reality, Robotics, Blockchain, and Actionable Analytics!",
+  "favorites": 0
  },
- {
+ "Nursing Artificial Intelligence Robotics Machine Learning Augmented Reality Club": {
   "name": "Nursing Artificial Intelligence Robotics Machine Learning Augmented Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Artificial Intelligence, Robotics, Machine Learning, and Augmented Reality!"
+  "descr": "We do things related with Artificial Intelligence, Robotics, Machine Learning, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "Wharton Microservice Augmented Reality Virtual Reality Big Data Club": {
   "name": "Wharton Microservice Augmented Reality Virtual Reality Big Data Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Microservice, Augmented Reality, Virtual Reality, and Big Data!"
+  "descr": "We do things related with Microservice, Augmented Reality, Virtual Reality, and Big Data!",
+  "favorites": 0
  },
- {
+ "College Machine Learning Actionable Analytics Big Data Quantum Computing Club": {
   "name": "College Machine Learning Actionable Analytics Big Data Quantum Computing Club",
   "tag": "Social",
-  "descr": "We do things related with Machine Learning, Actionable Analytics, Big Data, and Quantum Computing!"
+  "descr": "We do things related with Machine Learning, Actionable Analytics, Big Data, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Penn Artificial Intelligence Microservice Data Mining Robotics Club": {
   "name": "Penn Artificial Intelligence Microservice Data Mining Robotics Club",
   "tag": "Potato",
-  "descr": "We do things related with Artificial Intelligence, Microservice, Data Mining, and Robotics!"
+  "descr": "We do things related with Artificial Intelligence, Microservice, Data Mining, and Robotics!",
+  "favorites": 0
  },
- {
+ "Penn Quantum Computing Big Data Virtual Reality Blockchain Club": {
   "name": "Penn Quantum Computing Big Data Virtual Reality Blockchain Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Quantum Computing, Big Data, Virtual Reality, and Blockchain!"
+  "descr": "We do things related with Quantum Computing, Big Data, Virtual Reality, and Blockchain!",
+  "favorites": 0
  },
- {
+ "College Machine Learning Actionable Analytics Microservice Quantum Computing Club": {
   "name": "College Machine Learning Actionable Analytics Microservice Quantum Computing Club",
   "tag": "Social",
-  "descr": "We do things related with Machine Learning, Actionable Analytics, Microservice, and Quantum Computing!"
+  "descr": "We do things related with Machine Learning, Actionable Analytics, Microservice, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Penn Blockchain Artificial Intelligence Augmented Reality Quantum Computing Club": {
   "name": "Penn Blockchain Artificial Intelligence Augmented Reality Quantum Computing Club",
   "tag": "Potato",
-  "descr": "We do things related with Blockchain, Artificial Intelligence, Augmented Reality, and Quantum Computing!"
+  "descr": "We do things related with Blockchain, Artificial Intelligence, Augmented Reality, and Quantum Computing!",
+  "favorites": 0
  },
- {
+ "Engineering Internet of Things Actionable Analytics Machine Learning Artificial Intelligence Club": {
   "name": "Engineering Internet of Things Actionable Analytics Machine Learning Artificial Intelligence Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Internet of Things, Actionable Analytics, Machine Learning, and Artificial Intelligence!"
+  "descr": "We do things related with Internet of Things, Actionable Analytics, Machine Learning, and Artificial Intelligence!",
+  "favorites": 0
  },
- {
+ "Wharton Big Data Machine Learning Actionable Analytics Microservice Club": {
   "name": "Wharton Big Data Machine Learning Actionable Analytics Microservice Club",
   "tag": "Meme",
-  "descr": "We do things related with Big Data, Machine Learning, Actionable Analytics, and Microservice!"
+  "descr": "We do things related with Big Data, Machine Learning, Actionable Analytics, and Microservice!",
+  "favorites": 0
  },
- {
+ "Engineering Augmented Reality Artificial Intelligence Internet of Things Blockchain Club": {
   "name": "Engineering Augmented Reality Artificial Intelligence Internet of Things Blockchain Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Augmented Reality, Artificial Intelligence, Internet of Things, and Blockchain!"
+  "descr": "We do things related with Augmented Reality, Artificial Intelligence, Internet of Things, and Blockchain!",
+  "favorites": 0
  },
- {
+ "College Internet of Things Virtual Reality Quantum Computing Robotics Club": {
   "name": "College Internet of Things Virtual Reality Quantum Computing Robotics Club",
   "tag": "Environmentally Friendly",
-  "descr": "We do things related with Internet of Things, Virtual Reality, Quantum Computing, and Robotics!"
+  "descr": "We do things related with Internet of Things, Virtual Reality, Quantum Computing, and Robotics!",
+  "favorites": 0
  },
- {
+ "Nursing Actionable Analytics Artificial Intelligence Microservice Big Data Club": {
   "name": "Nursing Actionable Analytics Artificial Intelligence Microservice Big Data Club",
   "tag": "Meme",
-  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Microservice, and Big Data!"
+  "descr": "We do things related with Actionable Analytics, Artificial Intelligence, Microservice, and Big Data!",
+  "favorites": 0
  },
- {
+ "Penn Big Data Actionable Analytics Data Mining Augmented Reality Club": {
   "name": "Penn Big Data Actionable Analytics Data Mining Augmented Reality Club",
   "tag": "Potato",
-  "descr": "We do things related with Big Data, Actionable Analytics, Data Mining, and Augmented Reality!"
+  "descr": "We do things related with Big Data, Actionable Analytics, Data Mining, and Augmented Reality!",
+  "favorites": 0
  },
- {
+ "College Blockchain Actionable Analytics Augmented Reality Data Mining Club": {
   "name": "College Blockchain Actionable Analytics Augmented Reality Data Mining Club",
   "tag": "Potato",
-  "descr": "We do things related with Blockchain, Actionable Analytics, Augmented Reality, and Data Mining!"
+  "descr": "We do things related with Blockchain, Actionable Analytics, Augmented Reality, and Data Mining!",
+  "favorites": 0
  },
- {
+ "College Augmented Reality Artificial Intelligence Machine Learning Actionable Analytics Club": {
   "name": "College Augmented Reality Artificial Intelligence Machine Learning Actionable Analytics Club",
   "tag": "Meme",
-  "descr": "We do things related with Augmented Reality, Artificial Intelligence, Machine Learning, and Actionable Analytics!"
+  "descr": "We do things related with Augmented Reality, Artificial Intelligence, Machine Learning, and Actionable Analytics!",
+  "favorites": 0
  }
-]
+}
