@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from scraper import * # Web Scraping utility functions for Online Clubs with Penn.
 app = Flask(__name__)
 
@@ -23,8 +23,14 @@ def main():
 def api():
     return "Welcome to the Penn Club Review API!."
 
-
-
+@app.route('/api/clubs', methods = ['GET','POST'])
+def api_clubs():
+    if request.method == 'GET':
+        with open('club_data.json') as c:
+          clubs = json.load(c)
+        c.close()  
+        return jsonify(clubs)
+    ##if request.method == 'POST':
 
 
 if __name__ == '__main__':
