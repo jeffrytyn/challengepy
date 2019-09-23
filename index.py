@@ -39,13 +39,19 @@ for club_html in get_clubs(soupify(get_clubs_html())):
         db.session.commit()
 """
 
+"""
+Open club_data file to load into a dictionary to be manipulated 
+"""
 with open('club_data.json') as clubfile:
     all_clubs = json.load(clubfile)
-    clubfile.close()
+clubfile.close()
 
+"""
+Open club_users file to load into dictionary to be manipulated
+"""
 with open('club_users.json') as clubfile:
     all_users = json.load(clubfile)
-    clubfile.close()
+clubfile.close()
 
 
 @app.route('/')
@@ -56,6 +62,11 @@ def main():
 def api():
     return "Welcome to the Penn Club Review API!."
 
+"""
+GET: Retrieve the information for all the clubs in JSON format
+POST: Add new club object and its information to to all_clubs dictionary.
+      If the new club has a name that already exists, it will return an alert.
+"""
 @app.route('/api/clubs', methods = ['GET', 'POST'])
 def api_clubs():
     if request.method == "GET":
@@ -69,17 +80,29 @@ def api_clubs():
         descr = request.form['descr']
         if len(all_clubs[name]) == 0:
             new_club = Club(name, tags, descr, likes = 0)
-            all_clubs[name] = new_club
+            all_clubs[name] = new_club.club_json()
         else: 
             return "That club already exists."
 
+"""
+Return safe information for a certain user in JSON format. If that user is not present in
+all_users, it will return a message.
+"""
 @app.route('/api/user/<username>', methods = ['GET'])
 def return_user_profile(username):
     if len(all_users[username]) > 0:
-        return jsonify(all_users[username])
+        with open('club_users.json','w') as clubfile:
+            json.dump(all_users, clubfile, indent = 1)
+        clubfile.close()
+        return jsonify(all_users[username].safe_data())
     else:
         return "No such user exists."
 
+"""
+Adds a certain club to a user's favorite attribute and increases the club's favorite count. 
+If the club is already a user's favorite, the club will be removed and its favorite count 
+will be reduced.
+"""
 @app.route('/api/favorite', methods = ["POST"])
 def mark_favorite():
     user = request.form['name']
@@ -92,6 +115,6 @@ def mark_favorite():
         all_users[user]["favorites"].append(club)
         all_clubs[club]["likes"] += 1
         return "Club added to favorites list."
-        
+
 if __name__ == '__main__':
     app.run()

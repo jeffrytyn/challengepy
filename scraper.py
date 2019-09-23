@@ -81,7 +81,10 @@ def get_club_tags(club):
     for tag in tags:
         container.append(tag.text)
     return container
-
+    
+"""
+Adding all the scaped data to a dictionary to be converted to JSON
+"""
 all_clubs = {}
 for club_html in get_clubs(soupify(get_clubs_html())):
         name = get_club_name(club_html)
@@ -97,7 +100,7 @@ for club_html in get_clubs(soupify(get_clubs_html())):
         
 with open('club_data.json','w') as club_json:
     json.dump(all_clubs, club_json, indent=1)
-    club_json.close()
+club_json.close()
 
 
 
