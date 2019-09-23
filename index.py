@@ -114,7 +114,10 @@ def mark_favorite():
     club = request.form["club"]
     if club in all_users[user]["favorites"]:
         all_users[user]["favorites"] = all_users[user]["favorites"].remove(club)
-        all_clubs[club]["likes"] -= 1
+        if all_clubs[club]["likes"] -= 1 < 0:  
+            all_clubs[club]["likes"] = 0
+        else:
+            all_clubs[club]["likes"] -= 1
         return "Club removed from favorites list."
     else:
         all_users[user]["favorites"].append(club)
