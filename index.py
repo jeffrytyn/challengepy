@@ -39,12 +39,14 @@ for club_html in get_clubs(soupify(get_clubs_html())):
         db.session.commit()
 """
 
+
 """
 Open club_data file to load into a dictionary to be manipulated 
 """
 with open('club_data.json') as clubfile:
     all_clubs = json.load(clubfile)
 clubfile.close()
+
 
 """
 Open club_users file to load into dictionary to be manipulated
@@ -61,6 +63,7 @@ def main():
 @app.route('/api')
 def api():
     return "Welcome to the Penn Club Review API!."
+
 
 """
 GET: Retrieve the information for all the clubs in JSON format
@@ -84,6 +87,7 @@ def api_clubs():
         else: 
             return "That club already exists."
 
+
 """
 Return safe information for a certain user in JSON format. If that user is not present in
 all_users, it will return a message.
@@ -97,6 +101,7 @@ def return_user_profile(username):
         return jsonify(all_users[username].safe_data())
     else:
         return "No such user exists."
+
 
 """
 Adds a certain club to a user's favorite attribute and increases the club's favorite count. 
@@ -115,6 +120,7 @@ def mark_favorite():
         all_users[user]["favorites"].append(club)
         all_clubs[club]["likes"] += 1
         return "Club added to favorites list."
+
 
 if __name__ == '__main__':
     app.run()
