@@ -1,4 +1,5 @@
 import json
+import bcrypt
 
 class User:
     """
@@ -6,7 +7,7 @@ class User:
     """
     def __init__(self, username, password, year, school, favorites):
         self.username = username
-        self.password = password
+        self.password = password.encode('utf-8')
         self.year = year
         self.school = school
         self.favorites = favorites
@@ -22,6 +23,13 @@ class User:
             'favorites': self.favorites
         }
         return user_json
+
+    def encode_pw(self):
+        salt = bcrypt.gensalt()
+        hashed_pw = bcrypt.hashpw(self.password,salt).decode('utf-8')
+        self.password = hashed_pw
+        return self
+
     """
     Returns the data for a user excluding their password
     """
@@ -35,7 +43,7 @@ class User:
 Creating 'jen'
 """
 user_data={}
-Jen = User('jen','Password',2023,'SEAS',["PennLabs",'CSS'])
+Jen = User('jen','Password',2023,'SEAS',["PennLabs",'CSS']).encode_pw()
 user_data['jen'] = Jen.user_json()
 
 with open('club_users.json','w') as userfile:

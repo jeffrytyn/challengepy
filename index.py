@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from club_users import *
 from club_groups import *
 from scraper import * # Web Scraping utility functions for Online Clubs with Penn.
+import bcrypt
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///club_users.db'
@@ -79,7 +80,7 @@ def api_clubs():
         return jsonify(all_clubs)
     else:
         name = request.form['name']
-        tags = [request.form['tag']]
+        tags = list(request.form['tag'])
         descr = request.form['descr']
         if len(all_clubs[name]) == 0:
             new_club = Club(name, tags, descr, likes = 0)
@@ -104,17 +105,39 @@ def return_user_profile(username):
 
 
 """
+Creates a new user with all the attributes filled. This user's password is hashed
+and his/her data is addded to the all_users dictionary and stored in the club_users
+JSON file.
+"""
+@app.route('/api/user/register', methods = ['GET','POST'])
+def register_new_user():
+    username = request.form['username']
+    password = request.form['password']
+    year = request.form['year']
+    school = request.form['school']
+    favorites = list(request.form['favorites'])
+    new_user = User(username, password, year, school, favorites).encode_pw()
+    if len(all_users[username]) == 0:
+        all_users[username] = new_user.user_json()
+        with open('club_users.json','w') as clubfile:
+            json.dump(all_users, clubfile)
+        clubfile.close()
+        return "New user successfully added!"
+    else:
+        return "That user already exists!"
+
+"""
 Adds a certain club to a user's favorite attribute and increases the club's favorite count. 
 If the club is already a user's favorite, the club will be removed and its favorite count 
 will be reduced.
 """
 @app.route('/api/favorite', methods = ["POST"])
 def mark_favorite():
-    user = request.form['name']
+    user = request.form['username']
     club = request.form["club"]
     if club in all_users[user]["favorites"]:
         all_users[user]["favorites"] = all_users[user]["favorites"].remove(club)
-        if all_clubs[club]["likes"] -= 1 < 0:  
+        if all_clubs[club]["likes"] - 1 < 0:  
             all_clubs[club]["likes"] = 0
         else:
             all_clubs[club]["likes"] -= 1
