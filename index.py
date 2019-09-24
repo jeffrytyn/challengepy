@@ -1,13 +1,15 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, session
 from flask_sqlalchemy import SQLAlchemy
 from club_users import *
 from club_groups import *
 from scraper import * # Web Scraping utility functions for Online Clubs with Penn.
+import os
 import bcrypt
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///club_users.db'
 db = SQLAlchemy(app)
+app.secret_key = os.urandom(24)
 
 """
 If I had more time, I would try to store club and user data with SQLAlchemy instead of JSON.
@@ -82,26 +84,29 @@ def api_clubs():
         name = request.form['name']
         tags = list(request.form['tag'])
         descr = request.form['descr']
-        if len(all_clubs[name]) == 0:
+        if not(name in all_clubs.keys()):
             new_club = Club(name, tags, descr, likes = 0)
             all_clubs[name] = new_club.club_json()
+            with open('club_data.json', 'w') as clubfile:
+                json.dump(all_clubs, clubfile)
+            clubfile.closer()
         else: 
             return "That club already exists."
 
 
 """
-Return safe information for a certain user in JSON format. If that user is not present in
+Return safe information for a certain user in JSON format. If that user is not logged in
 all_users, it will return a message.
 """
 @app.route('/api/user/<username>', methods = ['GET'])
 def return_user_profile(username):
-    if len(all_users[username]) > 0:
+    if 'user' in session:
         with open('club_users.json','w') as clubfile:
             json.dump(all_users, clubfile, indent = 1)
         clubfile.close()
         return jsonify(all_users[username].safe_data())
     else:
-        return "No such user exists."
+        return "Not logged in."
 
 
 """
@@ -117,7 +122,7 @@ def register_new_user():
     school = request.form['school']
     favorites = list(request.form['favorites'])
     new_user = User(username, password, year, school, favorites).encode_pw()
-    if len(all_users[username]) == 0:
+    if not(username in all_users.keys()):
         all_users[username] = new_user.user_json()
         with open('club_users.json','w') as clubfile:
             json.dump(all_users, clubfile)
@@ -126,27 +131,50 @@ def register_new_user():
     else:
         return "That user already exists!"
 
+@app.route('/api/user/login', methods = ['GET','POST'])
+def login():
+    username = request.form.get('username')
+    password = request.form.get('password')
+    if not(username in all_users.keys()):
+        return "This user does not exist!"
+    else:
+        hashed = all_users[username][password]
+        if bcrypt.checkpw(password,hashed):
+            session['user'] = username
+        else:
+            return "Incorrect password. Try again."
+
+@app.route('/api/user/logout', methods = ['GET','POST'])
+def logout():
+    if 'user' in session:
+        session.pop('user',None)
+        return "Successfully logged out."
+    else:
+        return "No user is logged in."    
+
 """
 Adds a certain club to a user's favorite attribute and increases the club's favorite count. 
 If the club is already a user's favorite, the club will be removed and its favorite count 
-will be reduced.
+will be reduced. The user must be logged in for the request to be processed.
 """
 @app.route('/api/favorite', methods = ["POST"])
 def mark_favorite():
-    user = request.form['username']
-    club = request.form["club"]
-    if club in all_users[user]["favorites"]:
-        all_users[user]["favorites"] = all_users[user]["favorites"].remove(club)
-        if all_clubs[club]["likes"] - 1 < 0:  
-            all_clubs[club]["likes"] = 0
+    if 'user' in session:
+        user = session['user']
+        club = request.form["club"]
+        if club in all_users[user]["favorites"]:
+            all_users[user]["favorites"] = all_users[user]["favorites"].remove(club)
+            if all_clubs[club]["likes"] - 1 < 0:  
+                all_clubs[club]["likes"] = 0
+            else:
+                all_clubs[club]["likes"] -= 1
+            return "Club removed from favorites list."
         else:
-            all_clubs[club]["likes"] -= 1
-        return "Club removed from favorites list."
+            all_users[user]["favorites"].append(club)
+            all_clubs[club]["likes"] += 1
+            return "Club added to favorites list."
     else:
-        all_users[user]["favorites"].append(club)
-        all_clubs[club]["likes"] += 1
-        return "Club added to favorites list."
-
+        return "You must login to favorite clubs."
 
 if __name__ == '__main__':
     app.run()
