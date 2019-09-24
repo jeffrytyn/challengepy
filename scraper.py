@@ -97,6 +97,7 @@ for club_html in get_clubs(soupify(get_clubs_html())):
             'likes': 0
             }
         all_clubs[name] = club_info
+        
 """
 Converting dictionary to JSON file
 """
