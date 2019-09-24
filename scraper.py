@@ -101,7 +101,7 @@ for club_html in get_clubs(soupify(get_clubs_html())):
 Converting dictionary to JSON file
 """
 with open('club_data.json','w') as club_json:
-    json.dump(all_clubs, club_json, indent=1)
+    json.dump(all_clubs, club_json, indent=4)
 club_json.close()
 
 

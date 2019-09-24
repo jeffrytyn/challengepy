@@ -1,12 +1,12 @@
 {
- "jen": {
-  "username": "jen",
-  "password": "$2b$12$w14xHumhvmG0ogojZ3WgYeL4KVo0JHu1WsLzIjPBm1/25KYRF7FYe",
-  "year": 2023,
-  "school": "SEAS",
-  "favorites": [
-   "PennLabs",
-   "CSS"
-  ]
- }
+    "jen": {
+        "username": "jen",
+        "password": "$2b$12$LaCnbVucfhD6mFdvVf5SJ.bOBd7NxUV7yF8z5eYbXrmeqFwRkfW1y",
+        "year": 2023,
+        "school": "SEAS",
+        "favorites": [
+            "PennLabs",
+            "CSS"
+        ]
+    }
 }

@@ -47,5 +47,5 @@ Jen = User('jen','Password',2023,'SEAS',["PennLabs",'CSS']).encode_pw()
 user_data['jen'] = Jen.user_json()
 
 with open('club_users.json','w') as userfile:
-    json.dump(user_data, userfile, indent = 1)
+    json.dump(user_data, userfile, indent = 4)
 userfile.close()

@@ -11,36 +11,36 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///club_users.db'
 db = SQLAlchemy(app)
 app.secret_key = os.urandom(24)
 
-"""
-If I had more time, I would try to store club and user data with SQLAlchemy instead of JSON.
 
-class Club(db.Model): 
-    name = db.Column(db.String, unique = True, primary_key = True, nullable = False)
-    tags = db.Column(db.String)
-    descr = db.Column(db.String)
-    favoriters = db.relationship('User', backref = 'best_club', lazy = True)
-    favorites = db.Column(db.Integer, default = 0)
+#If I had more time, I would try to store club and user data with SQLAlchemy instead of JSON.
 
-    def __repr__(self):
-        return f"Club('{self.name}', '{self.tags}', '{self.descr}','{self.favorites}')"
+#class Club(db.Model): 
+#    name = db.Column(db.String, unique = True, primary_key = True, nullable = False)
+#    tags = db.Column(db.String)
+#    descr = db.Column(db.String)
+#    favoriters = db.relationship('User', backref = 'best_club', lazy = True)
+#    favorites = db.Column(db.Integer, default = 0)
 
-class User(db.Model):
-    username = db.Column(db.String, unique = True, primary_key = True, nullable = False)
-    year = db.Column(db.Integer, nullable = False)
-    school = db.Column(db.String, nullable = False)
-    best = db.Column(db.String, db.ForeignKey('club.name'), nullable = True)
+#    def __repr__(self):
+#        return f"Club('{self.name}', '{self.tags}', '{self.descr}','{self.favorites}')"
 
-    def __repr__(self):
-        return f"User('{self.username}', '{self.year}', '{self.school}','{self.best}')"
+#class User(db.Model):
+#    username = db.Column(db.String, unique = True, primary_key = True, nullable = False)
+#    year = db.Column(db.Integer, nullable = False)
+#    school = db.Column(db.String, nullable = False)
+#    best = db.Column(db.String, db.ForeignKey('club.name'), nullable = True)
 
-for club_html in get_clubs(soupify(get_clubs_html())):
-        name = get_club_name(club_html)
-        tag = get_club_tags(club_html)
-        descr = get_club_description(club_html) 
-        new_club = Club(name = name, tags = tag, descr = descr, favorites = 0)
-        db.session.add(new_club)
-        db.session.commit()
-"""
+#    def __repr__(self):
+#        return f"User('{self.username}', '{self.year}', '{self.school}','{self.best}')"
+
+#for club_html in get_clubs(soupify(get_clubs_html())):
+#        name = get_club_name(club_html)
+#        tag = get_club_tags(club_html)
+#        descr = get_club_description(club_html) 
+#        new_club = Club(name = name, tags = tag, descr = descr, favorites = 0)
+#        db.session.add(new_club)
+#        db.session.commit()
+
 
 
 """
@@ -131,6 +131,11 @@ def register_new_user():
     else:
         return "That user already exists!"
 
+"""
+Route that enables users to login. Checks to see if user exists.
+Checks to see if entered password matches hashed password already 
+stored, and if so, adds a session key and value.
+"""
 @app.route('/api/user/login', methods = ['GET','POST'])
 def login():
     username = request.form.get('username')
@@ -144,6 +149,10 @@ def login():
         else:
             return "Incorrect password. Try again."
 
+"""
+When a user attempts to logout, this deletes the user entry
+in the session dictionary, allowing a new user to sign in.
+"""
 @app.route('/api/user/logout', methods = ['GET','POST'])
 def logout():
     if 'user' in session:
