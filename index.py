@@ -89,7 +89,7 @@ def api_clubs():
             all_clubs[name] = new_club.club_json()
             with open('club_data.json', 'w') as clubfile:
                 json.dump(all_clubs, clubfile)
-            clubfile.closer()
+            clubfile.close()
         else: 
             return "That club already exists."
 
@@ -114,7 +114,7 @@ Creates a new user with all the attributes filled. This user's password is hashe
 and his/her data is addded to the all_users dictionary and stored in the club_users
 JSON file.
 """
-@app.route('/api/user/register', methods = ['GET','POST'])
+@app.route('/api/register', methods = ['GET','POST'])
 def register_new_user():
     username = request.form['username']
     password = request.form['password']
@@ -136,7 +136,7 @@ Route that enables users to login. Checks to see if user exists.
 Checks to see if entered password matches hashed password already 
 stored, and if so, adds a session key and value.
 """
-@app.route('/api/user/login', methods = ['GET','POST'])
+@app.route('/api/signin', methods = ['GET','POST'])
 def login():
     username = request.form.get('username')
     password = request.form.get('password')
@@ -146,6 +146,7 @@ def login():
         hashed = all_users[username][password]
         if bcrypt.checkpw(password,hashed):
             session['user'] = username
+            return "Successfully signed in."
         else:
             return "Incorrect password. Try again."
 
@@ -153,7 +154,7 @@ def login():
 When a user attempts to logout, this deletes the user entry
 in the session dictionary, allowing a new user to sign in.
 """
-@app.route('/api/user/logout', methods = ['GET','POST'])
+@app.route('/api/signout', methods = ['GET','POST'])
 def logout():
     if 'user' in session:
         session.pop('user',None)

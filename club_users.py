@@ -24,6 +24,9 @@ class User:
         }
         return user_json
 
+    """
+    Hashes the user's password as to not be easily seen. Changes the user's password attribute
+    """
     def encode_pw(self):
         salt = bcrypt.gensalt()
         hashed_pw = bcrypt.hashpw(self.password,salt).decode('utf-8')
