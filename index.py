@@ -77,7 +77,7 @@ POST: Add new club object and its information to to all_clubs dictionary.
 def api_clubs():
     if request.method == "GET":
         with open('club_data.json','w') as clubfile:
-            json.dump(all_clubs, clubfile, indent = 1)
+            json.dump(all_clubs, clubfile, indent = 4)
         clubfile.close()
         return jsonify(all_clubs)
     else:
@@ -102,7 +102,7 @@ all_users, it will return a message.
 def return_user_profile(username):
     if 'user' in session:
         with open('club_users.json','w') as clubfile:
-            json.dump(all_users, clubfile, indent = 1)
+            json.dump(all_users, clubfile, indent = 4)
         clubfile.close()
         return jsonify(all_users[username].safe_data())
     else:
@@ -125,7 +125,7 @@ def register_new_user():
     if not(username in all_users.keys()):
         all_users[username] = new_user.user_json()
         with open('club_users.json','w') as clubfile:
-            json.dump(all_users, clubfile)
+            json.dump(all_users, clubfile, indent = 4)
         clubfile.close()
         return "New user successfully added!"
     else:
